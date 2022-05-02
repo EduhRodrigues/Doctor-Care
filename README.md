@@ -1,0 +1,1 @@
+<img src="assets/coverPNG.png" alt="capa da página Doctor Care.">
