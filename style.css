@@ -8,24 +8,29 @@
   --primary-color:hsla(170, 100%, 26%, 1);
   --headline-color:hsl(210, 11%, 15%,);
   --paragraph-color:hsl(210, 9%, 31%);
+  --primary-bg-color: #DCE9E2;
 
   font-size: 62.5%; /* 1rem = 10px */
   }
 
 body {
+background-color: var(--primary-bg-color);
+
   font-family: 'DM Sans', sans-serif;
   font-size: 1.6rem;
-
   text-align: center;
 }
 
 header {
+  display: flex;
   width: 37.5rem;
   margin-left: auto;
   margin-right: auto;
   padding-left: 2rem;
   padding-right: 2rem;
   margin-top: 4.1 rem;
+  flex-direction: column;
+  align-items: center;
 }
 
 h4 {
@@ -72,3 +77,30 @@ button{
   margin-left: auto;
   margin-right: auto;
 }
+
+.factoryAbout {
+  display: flex;
+  background-color: white;
+  border-radius: .6rem;
+  width: 32.7rem;
+  height: auto;
+  flex-direction: column;
+}
+
+.factoryNumbers {
+  margin-top: 4rem;
+}
+
+.factoryNumbers h3 {
+  color: var(--headline-color);
+  font-size: 4.8rem;
+  line-height: 130%;
+  font-weight: 700;
+}
+
+.factoryNumbers p {
+  color: var(--primary-color);
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
