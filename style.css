@@ -187,14 +187,14 @@ body.menu-expanded > :not(nav) {
 }
 
 .menu,
-.closeMenu,
+.close-menu,
 .openMenu {
   opacity: 0;
   visibility: hidden;
 }
 
 body.menu-expanded .menu,
-body.menu-expanded .closeMenu {
+body.menu-expanded .close-menu {
   opacity: 1;
   visibility: visible;
 }
