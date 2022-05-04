@@ -1,31 +1,31 @@
-/*======== GENERAL =================*/
+/*=== GERAL =================================*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-:root{
-  --primary-color:hsla(170, 100%, 26%, 1);
-  --headline-color:hsl(210, 11%, 15%);
-  --paragraph-color:hsl(210, 9%, 31%);
+:root {
+  --primary-color: hsl(170, 100%, 26%);
+  --headline: hsl(210, 11%, 15%);
+  --paragraph: hsl(210, 9%, 31%);
 
   --brand-beige: hsl(39, 100%, 97%);
   --brand-light: hsl(148, 23%, 89%);
 
-  --nav-height: 7.2rem;
-
   font-size: 62.5%; /* 1rem = 10px */
-  }
 
-  html,
-  body {
-    width: 100%;
-    height: 100%;
-  }
+  --nav-height: 7.2rem;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
 
 body {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'DM Sans';
   font-size: 1.6rem;
 
   text-align: center;
@@ -43,17 +43,18 @@ ul {
   list-style: none;
 }
 
-/*======== HEADER =================*/
+/*=== HEADER =================================*/
 header {
   margin-top: calc(4.1rem + var(--nav-height));
 }
 
-header::before{
+header::before {
   content: '';
-  background-color: var(--brand-light);
-  display: block;
   width: 100%;
   height: calc(108rem + var(--nav-height));
+  background-color: var(--brand-light);
+  display: block;
+
   position: absolute;
   top: 0;
   left: 0;
@@ -68,8 +69,9 @@ header h4 {
 
 header h1 {
   font-size: 3.4rem;
-  color: var(--headline-color);
+  color: var(--headline);
   line-height: 130%;
+
   margin-bottom: 2.4rem;
 }
 
@@ -77,32 +79,34 @@ header p {
   font-size: 1.8rem;
   line-height: 150%;
   font-weight: 400;
-  color: var(--paragraph-color);
+  color: var(--paragraph);
+
   margin-bottom: 3.2rem;
 }
 
-header button{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1.6rem;
-  background-color: var(--primary-color);
+header button {
+  background: var(--primary-color);
 
   border: none;
   border-radius: 4rem;
+
   margin-bottom: 6rem;
 
   height: 6.2rem;
   width: 26.3rem;
 
-  color: #ffffff;
-  text-transform: uppercase;
+  color: white;
   font-size: 1.4rem;
   font-weight: 700;
-  
+  text-transform: uppercase;
 
-  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+
   margin-right: auto;
+  margin-left: auto;
 }
 
 header img {
@@ -114,40 +118,44 @@ header img {
 
 .stats {
   width: 32.7rem;
+  padding-block: 4rem;
+  margin-inline: auto;
+
+  background-color: var(--brand-beige);
+  border: 1px solid var(--brand-light);
+  border-radius: 0.6rem;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 6rem;
-  margin-inline: auto;
-  padding-block: 4rem;
-  background-color: var(--brand-beige);
-  border: 1px solid var(--brand-light);
-  border-radius: .6rem;
 }
 
 .stat h3 {
-  color: var(--headline-color);
   font-size: 4.8rem;
+  color: var(--headline);
   line-height: 130%;
+
   margin-bottom: 0.4rem;
 }
 
 .stat p {
+  margin: 0;
   color: var(--primary-color);
   font-size: 1.6rem;
   line-height: 150%;
-  margin: 0;
 }
 
-/*======== NAVIGATION =================*/
-
+/*=== NAVIGATION =================================*/
 nav {
   display: flex;
+
+  height: var(--nav-height);
+
   position: fixed;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  height: var(--nav-height);
 }
 
 nav .wrapper {
@@ -156,19 +164,19 @@ nav .wrapper {
   justify-content: space-between;
 }
 
-nav.scrool {
-  position: fixed;
+nav.scroll {
   background: var(--primary-color);
   width: 100vw;
-  top:0;
-}    
+  position: fixed;
+  top: 0;
+}
 
-nav.scrool svg:nth-child(1) path {
-  fill: #ffffff;
+nav.scroll svg:nth-child(1) path {
+  fill: white;
 }
 
 nav.scroll button path {
-  stroke: #ffffff;
+  stroke: white;
 }
 
 nav button {
@@ -177,7 +185,7 @@ nav button {
   cursor: pointer;
 }
 
-/*======== MENU-EXPANDED =================*/
+/*=== MENU-EXPANDED =================================*/
 body.menu-expanded {
   overflow: hidden;
 }
@@ -204,65 +212,69 @@ body.menu-expanded .menu {
   top: 0;
   left: 0;
   background: var(--primary-color);
-  width: 100%;
+
+  width: 100vw;
   height: 100vh;
+
   padding-top: var(--nav-height);
 }
 
-  body.menu-expanded nav {
-    position: relative;
-  }
+body.menu-expanded nav {
+  position: relative;
+}
 
-  .menu ul:nth-child(1){
-    display: flex;
-    flex-direction: column;
-    gap: 4.8rem;
-    margin-top: 6rem;
-    font-weight: 700;
-    font-size: 2.4rem;
-    line-height: 3.1rem;
-  }
+.menu ul:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
 
-  .menu ul li a {
-    color: #ffffff;
-    text-decoration: none;
-  }
+  margin-top: 6rem;
 
-  .menu .button {
-    background: #ffffff;
-    border-radius: 4rem;
-    font-weight: 700;
-    font-size: 1.8rem;
-    line-height: 2.3rem;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: var(--primary-color);
-    display: inline-block;
-    padding: 16px 32px;
-    margin-top: 4.8rem;
-    margin-bottom: 8rem;
-  }
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.1rem;
+}
 
-  .social-links {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 3.2rem;
-  }
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+}
 
-  body.menu-expanded .logo,
-  body.menu-expanded button {
-    position: relative;
-    z-index: 100;
-  }
+.menu .button {
+  background: white;
+  border-radius: 4rem;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  text-transform: uppercase;
+  text-decoration: none;
 
-  body.menu-expanded .logo path {
-    fill: #ffffff;
-  }
+  color: var(--primary-color);
 
-  body.menu-expanded button path{
-    stroke: #ffffff;
-  }
+  display: inline-block;
+  padding: 16px 32px;
 
+  margin-top: 4.8rem;
+  margin-bottom: 8rem;
+}
 
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+}
 
+body.menu-expanded .logo,
+body.menu-expanded button {
+  position: relative;
+  z-index: 100;
+}
+
+body.menu-expanded .logo path {
+  fill: white;
+}
+
+body.menu-expanded button path {
+  stroke: white;
+}
