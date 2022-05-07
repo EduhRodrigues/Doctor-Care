@@ -21,7 +21,6 @@
 }
 
 html {
-  /* chrome://flags/#smooth-scrolling */
   scroll-behavior: smooth;
 }
 
@@ -59,14 +58,6 @@ img {
 .petPNG {
   z-index: 100;
   margin-bottom: -2.6rem;
-}
-
-.teste {
-
-  font-size: 10rem;
-  font-family: Arial rgb(54, 53, 0);
- 
-  text-anchor: middle;
 }
 
 section {
@@ -110,28 +101,23 @@ section .content p {
 /*=== NAVIGATION =================================*/
 nav {
   display: flex;
-
-  height: var(--nav-height);
-
+  height: 9rem;
   position: fixed;
   top: 0;
   width: 100%;
-
   z-index: 100;
+  margin-top: -1rem;
 }
 
 nav .wrapper {
+  position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 nav.scroll {
   background: var(--primary-color);
-}
-
-nav.scroll .logo path {
-  fill: white;
 }
 
 nav.scroll button path {
@@ -233,10 +219,6 @@ body.menu-expanded .logo,
 body.menu-expanded button {
   position: relative;
   z-index: 100;
-}
-
-body.menu-expanded .logo path {
-  fill: white;
 }
 
 body.menu-expanded button path {
