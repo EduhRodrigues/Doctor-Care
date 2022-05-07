@@ -6,12 +6,12 @@
 }
 
 :root {
-  --primary-color: hsl(170, 100%, 26%);
+  --primary-color: rgb(51, 203, 230);
   --headline: hsl(210, 11%, 15%);
   --paragraph: hsl(210, 9%, 31%);
 
   --brand-beige: hsl(39, 100%, 97%);
-  --brand-light: hsl(148, 23%, 89%);
+  --brand-light: hsl(187, 100%, 89%);
 
   --bg-light: hsl(180, 14%, 97%);
 
@@ -293,7 +293,7 @@ body.menu-expanded button path {
   margin-inline: auto;
 
   background-color: var(--brand-beige);
-  border: 1px solid var(--brand-light);
+  border: .5px solid var(--brand-light);
   border-radius: 0.6rem;
 
   display: flex;
