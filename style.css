@@ -61,6 +61,14 @@ img {
   margin-bottom: -2.6rem;
 }
 
+.teste {
+
+  font-size: 10rem;
+  font-family: Arial rgb(54, 53, 0);
+ 
+  text-anchor: middle;
+}
+
 section {
   padding-block: 5rem;
 }
@@ -107,7 +115,7 @@ nav {
 
   position: fixed;
   top: 0;
-  width: 100vw;
+  width: 100%;
 
   z-index: 100;
 }
