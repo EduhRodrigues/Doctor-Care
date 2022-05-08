@@ -363,6 +363,16 @@ body.menu-expanded button path {
   color: var(--primary-color);
 }
 
+span {
+  color: var(--primary-color);
+  font-weight: bold;
+  text-transform:uppercase;
+}
+
+span:hover {
+    color: var(--paragraph);
+}
+
 /*==================== ABOUT ====================*/
 #about {
   text-align: left;
