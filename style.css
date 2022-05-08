@@ -1,4 +1,4 @@
-/*=== GERAL =================================*/
+/*==================== GERAL ====================*/
 * {
   margin: 0;
   padding: 0;
@@ -6,19 +6,29 @@
 }
 
 :root {
-  --primary-color: rgb(51, 203, 230);
-  --headline: hsl(210, 11%, 15%);
-  --paragraph: hsl(210, 9%, 31%);
+/* ========= COLOR CONTROLLER =========*/
+  --hue1: 189; /* default 189 - H1, H2 and H3, hearder and footer background, buttons background and titles */
+  --hue3: 39; /* deefault 39 */
+  --hue5: 202; /* deefault 202 Button Hover*/
+  --hue6: 180; /* deefault 180 */
+  --hue7: 98%; /* deefault 98% - Cards and Stats Background Color */
+  --hue8: 100%; /* default 100% - Background Color */
+  --hue9: 900; /* default 900 - Cards background Color and home:before */ 
 
-  --brand-beige: hsl(39, 100%, 97%);
-  --brand-light: hsl(187, 100%, 89%);
 
-  --bg-light: hsl(180, 14%, 97%);
-
-  font-size: 62.5%; /* 1rem = 10px */
-
+/* ========= COLOR SET =========*/
+  --primary-color: hsl(var(--hue1), 78%, 55%);
+  --headline: hsl(var(--hue1), 100%, 50%);
+  --paragraph: hsl(var(--hue4), 9%, 31%);
+  --button-hover: hsl(var(--hue5), 100%, 50%);
+  --bg-light: hsl(var(--hue6), 14%, 97%);
+  --down-bg-color: hsl(0, 0%, var(--hue8));
+  --bg-cards-color:  hsl(var(--hue9), 100%, 89%);
+  --brand-light: hsl(var(--hue9), 100%, 89%);
+  
   --nav-height: 7.2rem;
-}
+  font-size: 62.5%; /* 1rem = 10px */
+  }
 
 html {
   scroll-behavior: smooth;
@@ -33,12 +43,8 @@ body {
 body {
   font-family: 'DM Sans';
   font-size: 1.6rem;
-
   text-align: center;
-
   overflow: overlay;
-
-  background-color: var(--bg-light);
 }
 
 .wrapper {
@@ -62,6 +68,7 @@ img {
 
 section {
   padding-block: 5rem;
+  background-color: var(--down-bg-color);
 }
 
 section header h4 {
@@ -70,16 +77,13 @@ section header h4 {
   line-height: 150%;
   letter-spacing: 0.08rem;
   color: var(--primary-color);
-
   text-transform: uppercase;
-
   margin-bottom: 1.6rem;
 }
 
 section header h2 {
   font-size: 3rem;
   line-height: 3.9rem;
-
   color: var(--headline);
 }
 
@@ -87,7 +91,6 @@ section header h1 {
   font-size: 3.4rem;
   color: var(--headline);
   line-height: 130%;
-
   margin-bottom: 2.4rem;
 }
 
@@ -95,10 +98,34 @@ section .content p {
   font-weight: 400;
   font-size: 1.6rem;  
   line-height: 150%;  
-
   color: var(--paragraph);
 }
-/*=== NAVIGATION =================================*/
+
+.button {
+  background: var(--primary-color);
+  border: none;
+  border-radius: 4rem;
+  margin-bottom: 6rem;
+  padding: 1.6rem 3.2rem;
+  width: fit-content;
+  letter-spacing: 1px;
+  color: hsl(0, 0%, 100%);
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+.button:hover {
+  background-color: var(--button-hover);
+  transition: background .6s;
+}
+
+/*==================== NAVIGATION ====================*/
 nav {
   display: flex;
   height: 9rem;
@@ -121,7 +148,7 @@ nav.scroll {
 }
 
 nav.scroll button path {
-  stroke: white;
+  stroke: hsl(0, 0%, 100%);
 }
 
 nav button {
@@ -130,8 +157,7 @@ nav button {
   cursor: pointer;
 }
 
-
-/*=== MENU-EXPANDED =================================*/
+/*==================== MENU-EXPANDED ====================*/
 body.menu-expanded {
   overflow: hidden;
 }
@@ -162,50 +188,47 @@ body.menu-expanded .menu {
   top: 0;
   left: 0;
   background: var(--primary-color);
-
-  width: 100vw;
-  height: 100vh;
-
+  width: 100%;
+  height: 100%;
   padding-top: var(--nav-height);
-
   transition: transform 800ms ease-out;
   transform: translateY(0)
-  
 }
 
 .menu ul:nth-child(1) {
   display: flex;
   flex-direction: column;
   gap: 4.8rem;
-
   margin-top: 6rem;
-
   font-weight: 700;
   font-size: 2.4rem;
   line-height: 3.1rem;
 }
 
 .menu ul li a {
-  color: white;
+  color: hsl(0, 0%, 100%);
   text-decoration: none;
 }
 
 .menu .button {
-  background: white;
+  background: hsl(0, 0%, 100%);
   border-radius: 4rem;
   font-weight: 700;
   font-size: 1.8rem;
   line-height: 2.3rem;
   text-transform: uppercase;
   text-decoration: none;
-
   color: var(--primary-color);
-
   display: inline-block;
   padding: 16px 32px;
-
   margin-top: 4.8rem;
   margin-bottom: 8rem;
+}
+
+.menu .button:hover {
+  background-color: hwb(134 0% 27%);
+  color: hsl(0, 0%, 100%);
+  transition: .5s ease-in-out;
 }
 
 .social-links {
@@ -222,12 +245,12 @@ body.menu-expanded button {
 }
 
 body.menu-expanded button path {
-  stroke: white;
+  stroke: hsl(0, 0%, 100%);
 }
 
 
 
-/*=== #HOME =================================*/
+/*==================== HOME ====================*/
 #home {
   padding-top: calc(4.1rem + var(--nav-height));
 }
@@ -246,38 +269,17 @@ body.menu-expanded button path {
   z-index: -1;
 }
 
+#home .button {
+  margin-inline: auto;
+}
+
 #home p {
   font-size: 1.8rem;
   line-height: 150%;
   font-weight: 400;
   color: var(--paragraph);
 
-  margin-bottom: 3.2rem;
-}
-
-#home button {
-  background: var(--primary-color);
-
-  border: none;
-  border-radius: 4rem;
-
   margin-bottom: 6rem;
-
-  height: 6.2rem;
-  width: 26.3rem;
-
-  color: white;
-  font-size: 1.4rem;
-  font-weight: 700;
-  text-transform: uppercase;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1.6rem;
-
-  margin-right: auto;
-  margin-left: auto;
 }
 
 #home img {
@@ -291,11 +293,9 @@ body.menu-expanded button path {
   width: 32.7rem;
   padding-block: 4rem;
   margin-inline: auto;
-
-  background-color: var(--brand-beige);
+  background-color: var(--down-bg-color);
   border: .5px solid var(--brand-light);
   border-radius: 0.6rem;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -306,7 +306,6 @@ body.menu-expanded button path {
   font-size: 4.8rem;
   color: var(--headline);
   line-height: 130%;
-
   margin-bottom: 0.4rem;
 }
 
@@ -317,7 +316,7 @@ body.menu-expanded button path {
   line-height: 150%;
 }
 
-/*=== SERVICES =================================*/
+/*==================== SERVICES ====================*/
 #services header h2 {
   margin-bottom: 6rem;
 }
@@ -331,9 +330,7 @@ body.menu-expanded button path {
 #services .card {
   padding: 2.4rem;
   text-align: left;
-
-  background: white;
-
+  background: var(--bg-cards-color);
   border: 1px solid var(--brand-light);
   border-radius: 0.6rem;
 }
@@ -342,10 +339,10 @@ body.menu-expanded button path {
   margin-block: 1.6rem;
 }
 
-/*=== ABOUT =================================*/
+/*==================== ABOUT ====================*/
 #about {
   text-align: left;
-  background-color: var(--brand-beige);
+  background-color: var(--down-bg-color);
 }
 
 #about header h2 {
@@ -355,4 +352,62 @@ body.menu-expanded button path {
 #about .content p {
   margin-top: 2.4rem;
   margin-bottom: 6rem;
+}
+
+/*==================== CONTACTS ====================*/
+
+#contact {
+  text-align: left;
+}
+
+#contact header {
+  margin-bottom: 3.2rem;
+}
+
+#contact ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+#contact ul li {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+#contact .button{
+  margin-top: 4rem;
+  /*margin-left: 6rem;*/
+}
+
+/*==================== FOOTER ====================*/
+footer {
+  background-color: var(--primary-color);
+  color: hsl(0, 0%, 100%);
+  line-height: 2rem;
+  width: 100%;
+  min-width: 400px;
+  height: 20rem;
+}
+
+footer p {
+  margin-bottom: 2.5rem;
+}
+
+#backToTopButton {
+  position: fixed;
+  right: 5rem;
+  bottom: 17.5rem;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(100%);
+  transition: 1s;
+}
+
+#backToTopButton.show {
+  opacity: 1;
+  visibility: visible;
+  transform: rotateY(0);
 }
