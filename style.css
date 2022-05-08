@@ -1,4 +1,4 @@
-/*==================== GERAL ====================*/
+/*==================== GENERAL ====================*/
 * {
   margin: 0;
   padding: 0;
@@ -8,21 +8,25 @@
 :root {
 /* ========= COLOR CONTROLLER =========*/
   --hue1: 189; /* default 189 - H1, H2 and H3, hearder and footer background, buttons background and titles */
-  --hue3: 39; /* deefault 39 */
-  --hue5: 202; /* deefault 202 Button Hover*/
-  --hue6: 180; /* deefault 180 */
-  --hue7: 98%; /* deefault 98% - Cards and Stats Background Color */
-  --hue8: 100%; /* default 100% - Background Color */
+  --hue4: 10%; /* defaul 0 - Paragraph and Footer Text Color */
+  --hue5: 202; /* default 202 Button Hover*/
+  --hue7: 98%; /* default 98% - Cards and Stats Background Color */
+  --hue8: 990; /* dfault 100% - Background Color */
   --hue9: 900; /* default 900 - Cards background Color and home:before */ 
-
+  --hue2: 1000; /* Up BG Color */
 
 /* ========= COLOR SET =========*/
   --primary-color: hsl(var(--hue1), 78%, 55%);
   --headline: hsl(var(--hue1), 100%, 50%);
-  --paragraph: hsl(var(--hue4), 9%, 31%);
+
+  --paragraph: hsl(0, 0%, var(--hue4));
+
   --button-hover: hsl(var(--hue5), 100%, 50%);
-  --bg-light: hsl(var(--hue6), 14%, 97%);
-  --down-bg-color: hsl(0, 0%, var(--hue8));
+
+  --up-bg-color: hsl(var(--hue2), 100%, 50%);
+
+  --down-bg-color: hsl(var(--hue8), 100%, 50%);
+  
   --bg-cards-color:  hsl(var(--hue9), 100%, 89%);
   --brand-light: hsl(var(--hue9), 100%, 89%);
   
@@ -260,7 +264,7 @@ body.menu-expanded button path {
   width: 100%;
   min-width: 40rem;
   height: calc(90rem + var(--nav-height));
-  background-color: var(--brand-light);
+  background-color: var(--up-bg-color);
   display: block;
 
   position: absolute;
@@ -375,6 +379,7 @@ body.menu-expanded button path {
   display: flex;
   align-items: center;
   gap: 0.8rem;
+  color: var(--paragraph);
 }
 
 #contact .button{
@@ -385,7 +390,6 @@ body.menu-expanded button path {
 /*==================== FOOTER ====================*/
 footer {
   background-color: var(--primary-color);
-  color: hsl(0, 0%, 100%);
   line-height: 2rem;
   width: 100%;
   min-width: 400px;
@@ -394,6 +398,7 @@ footer {
 
 footer p {
   margin-bottom: 2.5rem;
+  color: var(--paragraph);
 }
 
 #backToTopButton {
