@@ -216,8 +216,13 @@ body.menu-expanded .menu {
 }
 
 .menu ul li a {
-  color: hsl(0, 0%, 100%);
+  color: var(--paragraph);
   text-decoration: none;
+}
+
+.menu ul li a:hover {
+  color: var(--down-bg-color);
+  transition: .6s ease-in;
 }
 
 .menu .button {
@@ -254,10 +259,6 @@ body.menu-expanded .menu {
   transform: scale(1.5);
 }
 
-.social-links svg path:hover {
-  stroke: var(--down-bg-color);
-}
-
 body.menu-expanded .logo,
 body.menu-expanded button {
   position: relative;
@@ -265,7 +266,7 @@ body.menu-expanded button {
 }
 
 body.menu-expanded button path {
-  stroke: hsl(0, 0%, 100%);
+  stroke: var(--down-bg-color);
 }
 
 
@@ -359,6 +360,7 @@ body.menu-expanded button path {
 
 #services .card h3 {
   margin-block: 1.6rem;
+  color: var(--primary-color);
 }
 
 /*==================== ABOUT ====================*/
