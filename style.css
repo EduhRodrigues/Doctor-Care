@@ -21,9 +21,7 @@
 
   --paragraph: hsl(0, 250%, var(--hue4));
 
-  --button-hover: hsl(var(--hue5), 100%, 50%);
-
-  --up-bg-color: hsl(var(--hue2), 100%, 50%);
+  --up-bg-color: hsl(var(--hue8), 100%, 50%);
 
   --down-bg-color: hsl(var(--hue8), 100%, 50%);
   --bg-cards-color:  hsl(var(--hue8), 100%, 50%);
@@ -111,15 +109,16 @@ section .content p {
   color: var(--paragraph);
 }
 
-.button {
-  background: var(--primary-color);
-  border: none;
+section .button {
+  background: var(--up-bg-color);
+  border: 3px solid var(--primary-color);
+  box-shadow: 0px 0px 2rem var(--primary-color); 
   border-radius: 4rem;
   margin-bottom: 6rem;
   padding: 1.6rem 3.2rem;
   width: fit-content;
   letter-spacing: 1px;
-  color: hsl(0, 0%, 100%);
+  color: var(--paragraph);
   font-size: 1.4rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -131,8 +130,9 @@ section .content p {
 }
 
 .button:hover {
-  background-color: var(--button-hover);
-  transition: background .6s;
+  background-color: var(--primary-color);
+  transform: scale(1.1);
+  transition: background .6s ease-in-out;
 }
 
 /*==================== NAVIGATION ====================*/
@@ -412,17 +412,57 @@ span:hover {
   color: var(--paragraph);
 }
 
-#contact .button{
-  margin-top: 4rem;
-  background-color: var(--down-bg-color);
+/*
+
+.menu .button {
+  background: var(--down-bg-color);
+  border-radius: 4rem;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  padding: 16px 32px;
+  margin-top: 4.8rem;
+  margin-bottom: 8rem;
+  color: var(--paragraph);
+  border: 3px solid var(--down-bg-color);
+}
+
+.menu .button:hover {
+  transition: .3s ease-in-out;
+  box-shadow: 0px 0px 1rem var(--down-bg-color);
+  transform: scale(1.05);
+}
+
+*/
+
+#contact .button {
+  background: var(--down-bg-color);
+  border-radius: 4rem;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  margin-top: 4.8rem;
+  margin-bottom: 8rem;
+  color: var(--paragraph);
   border: 3px solid var(--primary-color);
-  box-shadow: 0px 0px 2rem var(--primary-color); 
+}
+
+#contact .button:hover {
+  background: var(--primary-color);
+  transition: .3s ease-in-out;
+  box-shadow: 0px 0px 1rem var(--down-bg-color);
+  transform: scale(1.05);
 }
 
 #contact .content svg path {
   stroke: var(--primary-color)
 }
-
 
 /*==================== FOOTER ====================*/
 footer {
