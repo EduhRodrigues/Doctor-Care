@@ -1,6 +1,6 @@
 window.addEventListener("scroll", onScroll)
 
-
+onScroll()
 function onScroll() {
   showNavOnScroll()
   showBackToTopButtonOnScroll()
@@ -31,13 +31,18 @@ function closeMenu() {
 ScrollReveal({
   origin: 'top',
   distance: '50px',
-  duration: 2500,
+  duration: 2000,
 }).reveal(`
-  #home, 
-  #services,
+  #home header, 
+  #home h3,
+  #home p,
+  #home a,
   #services header,
-  #services .card,
-  #about, 
+  #services .card, 
   #about header, 
-  #about .content
+  #about .content,
+  #contact header,
+  #contact ul,
+  #contact a,
+  #footer
   `)

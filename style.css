@@ -8,26 +8,26 @@
 :root {
 /* ========= COLOR CONTROLLER =========*/
   --hue1: 189; /* default 189 - H1, H2 and H3, hearder and footer background, buttons background and titles */
-  --hue4: 10%; /* defaul 0 - Paragraph and Footer Text Color */
+  --hue4: 100%; /* defaul 0 - Paragraph and Footer Text Color */
   --hue5: 202; /* default 202 Button Hover*/
   --hue7: 98%; /* default 98% - Cards and Stats Background Color */
   --hue8: 990; /* dfault 100% - Background Color */
-  --hue9: 900; /* default 900 - Cards background Color and home:before */ 
-  --hue2: 1000; /* Up BG Color */
+  --hue9: 000; /* default 900 - Cards background Color and home:before */ 
+  --hue2: 1000; /* default 1000 - Up BG Color */
 
 /* ========= COLOR SET =========*/
   --primary-color: hsl(var(--hue1), 78%, 55%);
   --headline: hsl(var(--hue1), 100%, 50%);
 
-  --paragraph: hsl(0, 0%, var(--hue4));
+  --paragraph: hsl(0, 250%, var(--hue4));
 
   --button-hover: hsl(var(--hue5), 100%, 50%);
 
   --up-bg-color: hsl(var(--hue2), 100%, 50%);
 
   --down-bg-color: hsl(var(--hue8), 100%, 50%);
-  
-  --bg-cards-color:  hsl(var(--hue9), 100%, 89%);
+  --bg-cards-color:  hsl(var(--hue8), 100%, 50%);
+
   --brand-light: hsl(var(--hue9), 100%, 89%);
   
   --nav-height: 7.2rem;
@@ -221,24 +221,25 @@ body.menu-expanded .menu {
 }
 
 .menu .button {
-  background: hsl(0, 0%, 100%);
+  background: var(--down-bg-color);
   border-radius: 4rem;
   font-weight: 700;
   font-size: 1.8rem;
   line-height: 2.3rem;
   text-transform: uppercase;
   text-decoration: none;
-  color: var(--primary-color);
   display: inline-block;
   padding: 16px 32px;
   margin-top: 4.8rem;
   margin-bottom: 8rem;
+  color: var(--paragraph);
+  border: 3px solid var(--down-bg-color);
 }
 
 .menu .button:hover {
-  background-color: hwb(134 0% 27%);
-  color: hsl(0, 0%, 100%);
-  transition: .5s ease-in-out;
+  transition: .3s ease-in-out;
+  box-shadow: 0px 0px 1rem var(--down-bg-color);
+  transform: scale(1.05);
 }
 
 .social-links {
@@ -246,6 +247,15 @@ body.menu-expanded .menu {
   align-items: center;
   justify-content: center;
   gap: 3.2rem;
+}
+
+.social-links li svg:hover {
+  transition: .3s ease-in-out;
+  transform: scale(1.5);
+}
+
+.social-links svg path:hover {
+  stroke: var(--down-bg-color);
 }
 
 body.menu-expanded .logo,
@@ -303,13 +313,14 @@ body.menu-expanded button path {
   width: 32.7rem;
   padding-block: 4rem;
   margin-inline: auto;
-  background-color: var(--down-bg-color);
-  border: .5px solid var(--brand-light);
-  border-radius: 0.6rem;
+  background-color: var(--down-bg-color); 
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 6rem;
+  border-radius: .7rem;
+  border: 3px solid var(--primary-color);
+  box-shadow: 0px 0px 3rem var(--primary-color);
 }
 
 #home .stat h3 {
@@ -341,8 +352,9 @@ body.menu-expanded button path {
   padding: 2.4rem;
   text-align: left;
   background: var(--bg-cards-color);
-  border: 1px solid var(--brand-light);
-  border-radius: 0.6rem;
+  border: 3px solid var(--primary-color);
+  box-shadow: 0px 0px 2rem var(--primary-color);
+  border-radius: .7rem;
 }
 
 #services .card h3 {
@@ -390,8 +402,15 @@ body.menu-expanded button path {
 
 #contact .button{
   margin-top: 4rem;
-  /*margin-left: 6rem;*/
+  background-color: var(--down-bg-color);
+  border: 3px solid var(--primary-color);
+  box-shadow: 0px 0px 2rem var(--primary-color); 
 }
+
+#contact .content svg path {
+  stroke: var(--primary-color)
+}
+
 
 /*==================== FOOTER ====================*/
 footer {
