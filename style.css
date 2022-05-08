@@ -71,8 +71,14 @@ img {
 }
 
 section {
-  padding-block: 5rem;
+  padding-block: 3rem;
   background-color: var(--down-bg-color);
+}
+
+img .catAndDogPNG {
+  padding: 0rem;
+  margin-top: -2rem;
+  margin-bottom: -2rem;
 }
 
 section header h4 {
@@ -355,13 +361,13 @@ body.menu-expanded button path {
 
 #about .content p {
   margin-top: 2.4rem;
-  margin-bottom: 6rem;
 }
 
 /*==================== CONTACTS ====================*/
 
 #contact {
   text-align: left;
+  margin-bottom: -5.8rem;
 }
 
 #contact header {
