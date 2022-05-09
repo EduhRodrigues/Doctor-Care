@@ -15,13 +15,29 @@
   --hue9: 000; /* default 900 - Cards background Color and home:before */ 
   --hue2: 1000; /* default 1000 - Up BG Color */
 
+/* ========= CUSTOM COLORS PALETTES =========*/
+--hue-defaultColorPalette: 240; /* default 240 - Blue Color */ 
+--defaultColorPalette:  hsl(var(--hue-defaultColorPalette), 100%, 30%);
+
+--hue-custom01ColorPalette: 900; /* default 900 - Blue Light Color */ 
+--custom01ColorPalette:  hsl(var(--hue-custom01ColorPalette), 100%, 30%);
+
+--hue-custom02ColorPalette: 500; /* default 500 - Green Light Color */ 
+--custom02ColorPalette:  hsl(var(--hue-custom02ColorPalette), 100%, 30%);
+
+--hue-custom03ColorPalette: 600; /* default 800 - Purple Light Color */ 
+--custom03ColorPalette:  hsl(var(--hue-custom03ColorPalette), 100%, 30%);
+
+--hue-custom04ColorPalette: 300; /* default 300 - Pink Color */ 
+--custom04ColorPalette:  hsl(var(--hue-custom04ColorPalette), 100%, 30%);
+
 /* ========= COLOR SET =========*/
   --primary-color: hsl(var(--hue1), 78%, 55%);
   --headline: hsl(var(--hue1), 100%, 50%);
 
   --paragraph: hsl(0, 250%, var(--hue4));
 
-  --down-bg-color: hsl(var(--hue8), 100%, 50%);
+  --down-bg-color: var(--custom04ColorPalette);
   --bg-cards-color:  hsl(var(--hue8), 100%, 50%);
 
   --brand-light: hsl(var(--hue9), 100%, 89%);
@@ -373,7 +389,7 @@ body.menu-expanded button path {
 #services .card {
   padding: 2.4rem;
   text-align: left;
-  background: var(--bg-cards-color);
+  background: var(--down-bg-color);
   border: 3px solid var(--primary-color);
   box-shadow: 0px 0px 2rem var(--primary-color);
   border-radius: .7rem;
@@ -516,34 +532,34 @@ footer p {
   div #defaultColorPalette {
     min-width: 2rem;
     min-height: 2rem;
-    background-color: var(--down-bg-color);
+    background-color: var(--defaultColorPalette);
     cursor: pointer;
   }
 
   div #custom01ColorPalette {
     min-width: 2rem;
     min-height: 2rem;
-    background-color: rgb(197, 197, 197);
+    background-color: var(--custom01ColorPalette);
     cursor: pointer;
   }
 
   div #custom02ColorPalette {
     min-width: 2rem;
     min-height: 2rem;
-    background-color: rgb(0, 174, 255);
+    background-color: var(--custom02ColorPalette);
     cursor: pointer;
   }
 
   div #custom03ColorPalette {
     min-width: 2rem;
     min-height: 2rem;
-    background-color: rgb(103, 250, 103);
+    background-color: var(--custom03ColorPalette);
     cursor: pointer;
   }
 
   div #custom04ColorPalette {
     min-width: 2rem;
     min-height: 2rem;
-    background-color: rgb(243, 114, 255);
+    background-color: var(--custom04ColorPalette);
     cursor: pointer;
   }
