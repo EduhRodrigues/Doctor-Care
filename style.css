@@ -11,7 +11,7 @@
   --hue4: 100%; /* defaul 100% - Paragraph and Footer Text Color */
   --hue5: 202; /* default 202 Button Hover*/
   --hue7: 98%; /* default 98% - Cards and Stats Background Color */
-  --hue8: 990; /* dfault 100% - Background Color */
+  --hue8: 600; /* default 600 - Background Color */
   --hue9: 000; /* default 900 - Cards background Color and home:before */ 
   --hue2: 1000; /* default 1000 - Up BG Color */
 
@@ -21,8 +21,6 @@
 
   --paragraph: hsl(0, 250%, var(--hue4));
 
-  --up-bg-color: hsl(var(--hue8), 100%, 50%);
-  
   --down-bg-color: hsl(var(--hue8), 100%, 50%);
   --bg-cards-color:  hsl(var(--hue8), 100%, 50%);
 
@@ -113,7 +111,7 @@ section .content p {
 }
 
 section .button {
-  background: var(--up-bg-color);
+  background: var(--down-bg-color);
   border: 3px solid var(--primary-color);
   box-shadow: 0px 0px 2rem var(--primary-color); 
   border-radius: 4rem;
@@ -356,9 +354,8 @@ body.menu-expanded button path {
 }
 
 /*==================== SERVICES ====================*/
-
 #services {
-    width: 37.5rem;
+    width: 40rem;
     margin-inline: auto;
    
 }
@@ -425,7 +422,6 @@ span:hover {
 }
 
 /*==================== CONTACTS ====================*/
-
 #contact {
   text-align: left;
   margin-bottom: -5.8rem;
@@ -515,7 +511,6 @@ footer p {
     margin-inline:auto;
     color: white;
     gap: 2rem;
-   
   }
 
   div #defaultColorPalette {
@@ -551,5 +546,4 @@ footer p {
     min-height: 2rem;
     background-color: rgb(243, 114, 255);
     cursor: pointer;
-  
   }
