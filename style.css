@@ -482,7 +482,7 @@ footer {
   line-height: 2rem;
   width: 100%;
   min-width: 400px;
-  height: 22rem;
+  height: 23rem;
 }
 
 footer p {
@@ -510,7 +510,7 @@ footer p {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 30%;
+    width: 20%;
   
     margin-inline:auto;
     color: white;
