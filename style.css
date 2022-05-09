@@ -53,9 +53,8 @@ body {
 }
 
 .wrapper {
-  width: 37.5rem;
+  width: 40rem;
   margin-inline: auto;
-  margin-bottom: 2rem;
   padding-inline: 2.4rem;
 }
 
@@ -507,7 +506,8 @@ footer p {
 }
 
 /*==================== COLOR CONTROL ====================*/
-  .colorControll {
+  div.colorControll {
+    margin-top: 1.5rem;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
