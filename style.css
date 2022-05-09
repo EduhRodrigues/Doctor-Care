@@ -8,7 +8,7 @@
 :root {
 /* ========= COLOR CONTROLLER =========*/
   --hue1: 189; /* default 189 - H1, H2 and H3, hearder and footer background, buttons background and titles */
-  --hue4: 100%; /* defaul 0 - Paragraph and Footer Text Color */
+  --hue4: 100%; /* defaul 100% - Paragraph and Footer Text Color */
   --hue5: 202; /* default 202 Button Hover*/
   --hue7: 98%; /* default 98% - Cards and Stats Background Color */
   --hue8: 990; /* dfault 100% - Background Color */
@@ -47,6 +47,7 @@ body {
   font-size: 1.6rem;
   text-align: center;
   overflow: overlay;
+  background: var(--down-bg-color);
 }
 
 .wrapper {
@@ -147,7 +148,7 @@ nav {
 }
 
 nav .wrapper {
-  position: relative;
+  width: 30rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -155,10 +156,12 @@ nav .wrapper {
 
 nav.scroll {
   background: var(--primary-color);
+  transition: .6s ease-in-out;
 }
 
 nav.scroll button path {
-  stroke: hsl(0, 0%, 100%);
+  stroke: var(--down-bg-color);
+  transition: .6s ease-in-out;
 }
 
 nav button {
@@ -202,7 +205,7 @@ body.menu-expanded .menu {
   height: 100%;
   padding-top: var(--nav-height);
   transition: transform 800ms ease-out;
-  transform: translateY(0)
+  transform: translateY(0);
 }
 
 .menu ul:nth-child(1) {
@@ -259,10 +262,22 @@ body.menu-expanded .menu {
   transform: scale(1.5);
 }
 
+#services .card circle {
+  fill: var(--primary-color);
+
+}
+#services .card path {
+  stroke: var(--down-bg-color);
+  }
+
 body.menu-expanded .logo,
 body.menu-expanded button {
   position: relative;
   z-index: 100;
+}
+
+.logoSVG{
+  margin-left: 1rem;
 }
 
 body.menu-expanded button path {
@@ -283,7 +298,6 @@ body.menu-expanded button path {
   height: calc(90rem + var(--nav-height));
   background-color: var(--up-bg-color);
   display: block;
-
   position: absolute;
   top: 0;
   left: 0;
@@ -339,6 +353,13 @@ body.menu-expanded button path {
 }
 
 /*==================== SERVICES ====================*/
+
+#services {
+    width: 37.5rem;
+    margin-inline: auto;
+   
+}
+
 #services header h2 {
   margin-bottom: 6rem;
 }
@@ -411,32 +432,6 @@ span:hover {
   gap: 0.8rem;
   color: var(--paragraph);
 }
-
-/*
-
-.menu .button {
-  background: var(--down-bg-color);
-  border-radius: 4rem;
-  font-weight: 700;
-  font-size: 1.8rem;
-  line-height: 2.3rem;
-  text-transform: uppercase;
-  text-decoration: none;
-  display: inline-block;
-  padding: 16px 32px;
-  margin-top: 4.8rem;
-  margin-bottom: 8rem;
-  color: var(--paragraph);
-  border: 3px solid var(--down-bg-color);
-}
-
-.menu .button:hover {
-  transition: .3s ease-in-out;
-  box-shadow: 0px 0px 1rem var(--down-bg-color);
-  transform: scale(1.05);
-}
-
-*/
 
 #contact .button {
   background: var(--down-bg-color);

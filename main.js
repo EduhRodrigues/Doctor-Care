@@ -31,7 +31,7 @@ function closeMenu() {
 ScrollReveal({
   origin: 'top',
   distance: '50px',
-  duration: 2000,
+  duration: 4300,
 }).reveal(`
   #home header, 
   #home h3,
