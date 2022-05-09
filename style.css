@@ -6,16 +6,8 @@
 }
 
 :root {
-/* ========= COLOR CONTROLLER =========*/
-  --hue1: 189; /* default 189 - H1, H2 and H3, hearder and footer background, buttons background and titles */
-  --hue4: 100%; /* defaul 100% - Paragraph and Footer Text Color */
-  --hue5: 202; /* default 202 Button Hover*/
-  --hue7: 98%; /* default 98% - Cards and Stats Background Color */
-  --hue8: 600; /* default 600 - Background Color */
-  --hue9: 000; /* default 900 - Cards background Color and home:before */ 
-  --hue2: 1000; /* default 1000 - Up BG Color */
 
-/* ========= CUSTOM COLORS PALETTES =========*/
+/*========= CUSTOM COLORS PALETTES =========*/
 --hue-defaultColorPalette: 240; /* default 240 - Blue Color */ 
 --defaultColorPalette:  hsl(var(--hue-defaultColorPalette), 100%, 30%);
 
@@ -25,23 +17,23 @@
 --hue-custom02ColorPalette: 500; /* default 500 - Green Light Color */ 
 --custom02ColorPalette:  hsl(var(--hue-custom02ColorPalette), 100%, 30%);
 
---hue-custom03ColorPalette: 600; /* default 800 - Purple Light Color */ 
+--hue-custom03ColorPalette: 800; /* default 800 - Yellow Dark Color */ 
 --custom03ColorPalette:  hsl(var(--hue-custom03ColorPalette), 100%, 30%);
 
 --hue-custom04ColorPalette: 300; /* default 300 - Pink Color */ 
 --custom04ColorPalette:  hsl(var(--hue-custom04ColorPalette), 100%, 30%);
 
-/* ========= COLOR SET =========*/
+/*========= COLOR SET =========*/
+  --down-bg-color: var(--defaultColorPalette);
+  --bg-cards-color:  var(--defaultColorPalette);
+
+  --hue1: 189; /* default 189 - H1, H2 and H3, hearder and footer background, buttons background and titles */
   --primary-color: hsl(var(--hue1), 78%, 55%);
   --headline: hsl(var(--hue1), 100%, 50%);
 
+  --hue4: 100%; /* defaul 100% - Paragraph and Footer Text Color */
   --paragraph: hsl(0, 250%, var(--hue4));
 
-  --down-bg-color: var(--defaultColorPalette);
-  --bg-cards-color:  hsl(var(--hue8), 100%, 50%);
-
-  --brand-light: hsl(var(--hue9), 100%, 89%);
-  
   --nav-height: 7.2rem;
   font-size: 62.5%; /* 1rem = 10px */
 }
@@ -522,9 +514,8 @@ footer p {
     flex-direction: row;
     justify-content: space-evenly;
     width: 20%;
-    margin-inline:auto;
-    color: white;
-    gap: 2rem;
+    margin-inline: auto;
+    gap: 1rem;
   }
 
   div #defaultColorPalette {
@@ -532,6 +523,7 @@ footer p {
     min-height: 2rem;
     background-color: var(--defaultColorPalette);
     cursor: pointer;
+    border-radius: 1rem;
   }
 
   div #custom01ColorPalette {
@@ -539,6 +531,7 @@ footer p {
     min-height: 2rem;
     background-color: var(--custom01ColorPalette);
     cursor: pointer;
+    border-radius: 1rem;
   }
 
   div #custom02ColorPalette {
@@ -546,6 +539,7 @@ footer p {
     min-height: 2rem;
     background-color: var(--custom02ColorPalette);
     cursor: pointer;
+    border-radius: 1rem;
   }
 
   div #custom03ColorPalette {
@@ -553,6 +547,7 @@ footer p {
     min-height: 2rem;
     background-color: var(--custom03ColorPalette);
     cursor: pointer;
+    border-radius: 1rem;
   }
 
   div #custom04ColorPalette {
@@ -560,4 +555,5 @@ footer p {
     min-height: 2rem;
     background-color: var(--custom04ColorPalette);
     cursor: pointer;
+    border-radius: 1rem;
   }
