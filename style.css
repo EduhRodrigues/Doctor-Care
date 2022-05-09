@@ -84,7 +84,7 @@ section header h4 {
   font-weight: 700;
   line-height: 150%;
   letter-spacing: 0.08rem;
-  color: var(--primary-color);
+  color: var(--paragraph);
   text-transform: uppercase;
   margin-bottom: 1.6rem;
 }
