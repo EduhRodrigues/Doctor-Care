@@ -22,7 +22,7 @@
   --paragraph: hsl(0, 250%, var(--hue4));
 
   --up-bg-color: hsl(var(--hue8), 100%, 50%);
-
+  
   --down-bg-color: hsl(var(--hue8), 100%, 50%);
   --bg-cards-color:  hsl(var(--hue8), 100%, 50%);
 
@@ -30,6 +30,8 @@
   
   --nav-height: 7.2rem;
   font-size: 62.5%; /* 1rem = 10px */
+
+ /* --teste: #8000ff;*/
   }
 
 html {
@@ -383,6 +385,19 @@ body.menu-expanded button path {
   margin-block: 1.6rem;
   color: var(--primary-color);
 }
+
+/*#top-bar {
+  display: none;
+}*/
+
+div.embedded {
+  display: flex;
+  height: 50rem;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: -2rem;
+  }
 
 span {
   color: var(--primary-color);
