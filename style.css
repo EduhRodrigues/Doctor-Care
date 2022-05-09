@@ -37,7 +37,7 @@
 
   --paragraph: hsl(0, 250%, var(--hue4));
 
-  --down-bg-color: var(--custom04ColorPalette);
+  --down-bg-color: var(--defaultColorPalette);
   --bg-cards-color:  hsl(var(--hue8), 100%, 50%);
 
   --brand-light: hsl(var(--hue9), 100%, 89%);
@@ -45,8 +45,6 @@
   --nav-height: 7.2rem;
   font-size: 62.5%; /* 1rem = 10px */
 
- /* --teste: #8000ff;*/
-  }
 
 html {
   scroll-behavior: smooth;
