@@ -479,6 +479,7 @@ footer {
   width: 100%;
   min-width: 400px;
   height: 16.5rem;
+  padding-top: 1rem;
 }
 
 footer p {
@@ -504,14 +505,13 @@ footer p {
 
 /*==================== COLOR CONTROL ====================*/
   div.colorControll {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     width: 20%;
     margin-inline: auto;
     gap: 1rem;
+    margin-bottom: 1rem;
   }
 
   div #defaultColorPalette {
