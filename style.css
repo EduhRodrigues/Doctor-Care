@@ -9,10 +9,10 @@
 
 /*========= CUSTOM COLORS PALETTES =========*/
 --hue-defaultColorPalette: 240; /* default 240 - Blue Color */ 
---defaultColorPalette:  hsl(var(--hue-defaultColorPalette), 100%, 30%);
+--defaultColorPalette:  #00f;
 
---hue-custom01ColorPalette: 900; /* default 900 - Blue Light Color */ 
---custom01ColorPalette:  hsl(var(--hue-custom01ColorPalette), 100%, 30%);
+--hue-custom01ColorPalette: 0; /* default 0 - Dark Theme Mode */ 
+--custom01ColorPalette:  hsl(var(--hue-custom01ColorPalette), 0%, 0%);
 
 --hue-custom02ColorPalette: 500; /* default 500 - Green Light Color */ 
 --custom02ColorPalette:  hsl(var(--hue-custom02ColorPalette), 100%, 30%);
@@ -77,7 +77,7 @@ img {
 
 section {
   padding-block: 3rem;
-  background-color: var(--down-bg-color);
+  background: var(--down-bg-color);
 }
 
 img .catAndDogPNG {
@@ -137,7 +137,7 @@ section .button {
 }
 
 .button:hover {
-  background-color: var(--primary-color);
+  background: var(--primary-color);
   transform: scale(1.1);
   transition: background .6s ease-in-out;
 }
@@ -291,8 +291,6 @@ body.menu-expanded button path {
   stroke: var(--down-bg-color);
 }
 
-
-
 /*==================== HOME ====================*/
 #home {
   padding-top: calc(4.1rem + var(--nav-height));
@@ -303,7 +301,7 @@ body.menu-expanded button path {
   width: 100%;
   min-width: 40rem;
   height: calc(90rem + var(--nav-height));
-  background-color: var(--up-bg-color);
+  background: var(--up-bg-color);
   display: block;
   position: absolute;
   top: 0;
@@ -335,7 +333,7 @@ body.menu-expanded button path {
   width: 32.7rem;
   padding-block: 4rem;
   margin-inline: auto;
-  background-color: var(--down-bg-color); 
+  background: var(--down-bg-color); 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -385,14 +383,16 @@ body.menu-expanded button path {
   border-radius: .7rem;
 }
 
+
+
 #services .card h3 {
   margin-block: 1.6rem;
   color: var(--primary-color);
 }
 
-/*#top-bar {
+iframe #top-bar {
   display: none;
-}*/
+}
 
 div.embedded {
   display: flex;
@@ -416,7 +416,7 @@ span:hover {
 /*==================== ABOUT ====================*/
 #about {
   text-align: left;
-  background-color: var(--down-bg-color);
+  background: var(--down-bg-color);
 }
 
 #about header h2 {
@@ -479,15 +479,15 @@ span:hover {
 
 /*==================== FOOTER ====================*/
 footer {
-  background-color: var(--primary-color);
+  background: var(--primary-color);
   line-height: 2rem;
   width: 100%;
   min-width: 400px;
-  height: 23rem;
+  height: 16.5rem;
 }
 
 footer p {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   color: var(--paragraph);
 }
 
@@ -510,6 +510,7 @@ footer p {
 /*==================== COLOR CONTROL ====================*/
   div.colorControll {
     margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -521,39 +522,44 @@ footer p {
   div #defaultColorPalette {
     min-width: 2rem;
     min-height: 2rem;
-    background-color: var(--defaultColorPalette);
+    background: var(--defaultColorPalette);
     cursor: pointer;
     border-radius: 1rem;
+    border: 1px solid white;
   }
 
   div #custom01ColorPalette {
     min-width: 2rem;
     min-height: 2rem;
-    background-color: var(--custom01ColorPalette);
+    background: var(--custom01ColorPalette);
     cursor: pointer;
     border-radius: 1rem;
+    border: 1px solid white;
   }
 
   div #custom02ColorPalette {
     min-width: 2rem;
     min-height: 2rem;
-    background-color: var(--custom02ColorPalette);
+    background: var(--custom02ColorPalette);
     cursor: pointer;
     border-radius: 1rem;
+    border: 1px solid white;
   }
 
   div #custom03ColorPalette {
     min-width: 2rem;
     min-height: 2rem;
-    background-color: var(--custom03ColorPalette);
+    background: var(--custom03ColorPalette);
     cursor: pointer;
     border-radius: 1rem;
+    border: 1px solid white;
   }
 
   div #custom04ColorPalette {
     min-width: 2rem;
     min-height: 2rem;
-    background-color: var(--custom04ColorPalette);
+    background: var(--custom04ColorPalette);
     cursor: pointer;
     border-radius: 1rem;
+    border: 1px solid white;
   }
