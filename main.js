@@ -89,8 +89,8 @@ ScrollReveal({
     document.querySelector(".about-bg-color").style.backgroundColor = "#000";
     document.querySelector(".contact-bg-color").style.backgroundColor = "#000";
 
-    document.querySelector("#navigation").style.backgroundColor = "#2e2e2e";
-    document.querySelector("#footer").style.backgroundColor = "#2e2e2e";
+    document.querySelector("#navigation").style.backgroundColor = "#000";
+    document.querySelector("#footer").style.backgroundColor = "#000";
   }
 
   document.getElementById("custom02ColorPalette").addEventListener("click", custom02ColorPalette)
