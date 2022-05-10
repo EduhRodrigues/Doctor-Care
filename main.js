@@ -31,7 +31,7 @@ function closeMenu() {
 ScrollReveal({
   origin: 'top',
   distance: '50px',
-  duration: 4300,
+  duration: 8500,
 }).reveal(`
   #home header, 
   #home h3,
@@ -48,7 +48,13 @@ ScrollReveal({
 
   document.getElementById("defaultColorPalette").addEventListener("click", defaultColorPalette)
   function defaultColorPalette () {
-    alert("Esta página receberá a paleta de cores Blue Alive Theme.")
+    alert(`Prepare-se para uma nova experiência!
+
+    Esta página receberá a paleta de cores: 
+    
+    Happy Blue Day Alive by Eduh™
+    
+    `)
 
     document.querySelector("#body").style.backgroundColor = "#00f";
     document.querySelector("#home").style.backgroundColor = "#00f";
@@ -72,7 +78,14 @@ ScrollReveal({
 
   document.getElementById("custom01ColorPalette").addEventListener("click", custom01ColorPalette)
   function custom01ColorPalette () {
-    alert("Esta página receberá a paleta de cores Dark Theme.")
+    alert(`Prepare-se para uma nova experiência!
+
+    Esta página receberá a paleta de cores: 
+    
+    Dark Screen Sky by Eduh™
+    
+    `)
+
     document.querySelector("#body").style.backgroundColor = "#000";
     document.querySelector("#home").style.backgroundColor = "#000";
     document.querySelector("#stats").style.backgroundColor = "#000";
@@ -86,6 +99,14 @@ ScrollReveal({
     document.querySelector(".cardBlack5").style.backgroundColor = "#000";
     document.querySelector(".cardBlack6").style.backgroundColor = "#000";
 
+    document.querySelector(".button").style.backgroundColor = "#000";
+    document.querySelector(".button").style.borderColor = "#fff";
+    document.querySelector(".button").style.color = "green";
+
+    document.querySelector(".menu").style.backgroundColor = "#000";
+
+    
+    
     document.querySelector(".about-bg-color").style.backgroundColor = "#000";
     document.querySelector(".contact-bg-color").style.backgroundColor = "#000";
 
@@ -95,27 +116,39 @@ ScrollReveal({
 
   document.getElementById("custom02ColorPalette").addEventListener("click", custom02ColorPalette)
   function custom02ColorPalette () {
-    alert("Esta página receberá a paleta de cores Olive Land Theme.")
+    alert(`Prepare-se para uma nova experiência!
 
-    document.querySelector("#body").style.backgroundColor = "hsl(500, 100%, 30%)";
-    document.querySelector("#home").style.backgroundColor = "hsl(500, 100%, 30%)";
-    document.querySelector("#stats").style.backgroundColor = "hsl(500, 100%, 30%)";
-    document.querySelector("#services").style.backgroundColor = "hsl(500, 100%, 30%)";
+    Esta página receberá a paleta de cores: 
+    
+    Amazon Breathe by Eduh™
+    
+    `)
+
+    document.querySelector("#body").style.backgroundColor = "#22B103";
+    document.querySelector("#home").style.backgroundColor = "#22B103";
+    document.querySelector("#stats").style.backgroundColor = "#22B103";
+    document.querySelector("#services").style.backgroundColor = "#22B103";
    
-    document.querySelector(".cardBlackProducts").style.backgroundColor = "hsl(500, 100%, 30%)";
-    document.querySelector(".cardBlack1").style.backgroundColor = "hsl(500, 100%, 30%)";
-    document.querySelector(".cardBlack2").style.backgroundColor = "hsl(500, 100%, 30%)";
-    document.querySelector(".cardBlack3").style.backgroundColor = "hsl(500, 100%, 30%)";
-    document.querySelector(".cardBlack4").style.backgroundColor = "hsl(500, 100%, 30%)";
-    document.querySelector(".cardBlack5").style.backgroundColor = "hsl(500, 100%, 30%)";
-    document.querySelector(".cardBlack6").style.backgroundColor = "hsl(500, 100%, 30%)";
+    document.querySelector(".cardBlackProducts").style.backgroundColor = "#22B103";
+    document.querySelector(".cardBlack1").style.backgroundColor = "#22B103";
+    document.querySelector(".cardBlack2").style.backgroundColor = "#22B103";
+    document.querySelector(".cardBlack3").style.backgroundColor = "#22B103";
+    document.querySelector(".cardBlack4").style.backgroundColor = "#22B103";
+    document.querySelector(".cardBlack5").style.backgroundColor = "#22B103";
+    document.querySelector(".cardBlack6").style.backgroundColor = "#22B103";
 
-    document.querySelector(".about-bg-color").style.backgroundColor = "hsl(500, 100%, 30%)";
-    document.querySelector(".contact-bg-color").style.backgroundColor = "hsl(500, 100%, 30%)";
+    document.querySelector(".button").style.backgroundColor = "#228303";
+    document.querySelector(".button").style.borderColor = "#228303";
+    document.querySelector(".button").style.color = "#fff";
 
-    document.querySelector("#navigation").style.backgroundColor = "green";
-    document.querySelector("#footer").style.backgroundColor = "green";
 
+    document.querySelector(".menu").style.backgroundColor = "#22B103";
+
+    document.querySelector(".about-bg-color").style.backgroundColor = "#22B103";
+    document.querySelector(".contact-bg-color").style.backgroundColor = "#22B103";
+
+    document.querySelector("#navigation").style.backgroundColor = "#228303";
+    document.querySelector("#footer").style.backgroundColor = "#228303";
   }
 
   document.getElementById("custom03ColorPalette").addEventListener("click", custom03ColorPalette)

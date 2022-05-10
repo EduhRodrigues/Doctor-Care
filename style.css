@@ -14,8 +14,8 @@
 --hue-custom01ColorPalette: 0; /* default 0 - Dark Theme Mode */ 
 --custom01ColorPalette:  hsl(var(--hue-custom01ColorPalette), 0%, 0%);
 
---hue-custom02ColorPalette: 500; /* default 500 - Green Light Color */ 
---custom02ColorPalette:  hsl(var(--hue-custom02ColorPalette), 100%, 30%);
+
+--custom02ColorPalette:  #22B103;
 
 --hue-custom03ColorPalette: 800; /* default 800 - Yellow Dark Color */ 
 --custom03ColorPalette:  hsl(var(--hue-custom03ColorPalette), 100%, 30%);
@@ -169,7 +169,7 @@ nav.scroll {
 }
 
 nav.scroll button path {
-  stroke: var(--down-bg-color);
+  stroke: var(--paragraph);
   transition: .6s ease-in-out;
 }
 
@@ -293,7 +293,7 @@ body.menu-expanded button {
 }
 
 body.menu-expanded button path {
-  stroke: var(--down-bg-color);
+  stroke: var(--paragraph);
 }
 
 /*==================== HOME ====================*/
@@ -476,7 +476,7 @@ span {
 }
 
 #contact .content svg path {
-  stroke: var(--primary-color)
+  stroke: var(--primary-color);
 }
 
 /*==================== FOOTER ====================*/
@@ -496,7 +496,7 @@ footer p {
 #backToTopButton {
   position: fixed;
   right: 5rem;
-  bottom: 20.8rem;
+  bottom: 14rem;
   opacity: 0;
   visibility: hidden;
   transform: translateY(100%);
