@@ -82,7 +82,7 @@ ScrollReveal({
 
     Esta página receberá a paleta de cores: 
     
-    Dark Screen Sky by Eduh™
+    Dark Shine Sky by Eduh™
     
     `)
 
@@ -103,11 +103,14 @@ ScrollReveal({
     document.querySelector(".button").style.borderColor = "#fff";
     document.querySelector(".button").style.color = "green";
 
+    document.querySelector("section .button").style.backgroundColor = "#000";
+    document.querySelector("section .button").style.borderColor = "#000";
+    document.querySelector("section .button").style.color = "#fff";
+
     document.querySelector(".menu").style.backgroundColor = "#000";
 
-    
-    
     document.querySelector(".about-bg-color").style.backgroundColor = "#000";
+
     document.querySelector(".contact-bg-color").style.backgroundColor = "#000";
 
     document.querySelector("#navigation").style.backgroundColor = "#000";
@@ -140,6 +143,10 @@ ScrollReveal({
     document.querySelector(".button").style.backgroundColor = "#228303";
     document.querySelector(".button").style.borderColor = "#228303";
     document.querySelector(".button").style.color = "#fff";
+
+    document.querySelector("section .button").style.backgroundColor = "#228303";
+    document.querySelector("section .button").style.borderColor = "#22B103";
+    document.querySelector("section .button").color = "#fff";
 
 
     document.querySelector(".menu").style.backgroundColor = "#22B103";

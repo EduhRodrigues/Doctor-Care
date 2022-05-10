@@ -136,11 +136,10 @@ section .button {
   gap: 1.6rem;
 }
 
-/* Chamar no Whatsapp Button */
 .button:hover {
   background: var(--primary-color);
-  box-shadow: 0px 0px 2rem var(--down-bg-color); 
-  color: var(--down-bg-color);
+  box-shadow: 0px 0px 2rem var(--paragraph); 
+  color: var(--paragraph);
   transform: scale(1.1);
   transition: background .6s ease-in-out;
 }
