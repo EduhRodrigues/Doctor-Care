@@ -8,31 +8,26 @@
 :root {
 
 /*========= CUSTOM COLORS PALETTES =========*/
---hue-defaultColorPalette: 240; /* default 240 - Blue Color */ 
---defaultColorPalette:  #00f;
-
---hue-custom01ColorPalette: 0; /* default 0 - Dark Theme Mode */ 
---custom01ColorPalette:  hsl(var(--hue-custom01ColorPalette), 0%, 0%);
-
+--custom01ColorPalette:  #000000;
 
 --custom02ColorPalette:  #22B103;
 
---hue-custom03ColorPalette: 800; /* default 800 - Yellow Dark Color */ 
---custom03ColorPalette:  hsl(var(--hue-custom03ColorPalette), 100%, 30%);
+--custom03ColorPalette:  #fafaab;
 
---hue-custom04ColorPalette: 300; /* default 300 - Pink Color */ 
---custom04ColorPalette:  hsl(var(--hue-custom04ColorPalette), 100%, 30%);
+--custom04ColorPalette:  hsl(300, 100%, 50%);
+
+--defaultColorPalette:  #0000ff;
+
+--test-color: #fff000;
 
 /*========= COLOR SET =========*/
   --down-bg-color: var(--defaultColorPalette);
   --bg-cards-color:  var(--defaultColorPalette);
 
-  --hue1: 189; /* default 189 - H1, H2 and H3, hearder and footer background, buttons background and titles */
-  --primary-color: hsl(var(--hue1), 78%, 55%);
-  --headline: hsl(var(--hue1), 100%, 50%);
+  --primary-color: #33cbe6;
+  --headline: #00d9ff;
 
-  --hue4: 100%; /* defaul 100% - Paragraph and Footer Text Color */
-  --paragraph: hsl(0, 250%, var(--hue4));
+  --paragraph: hsl(0, 250%, 100%);
 
   --nav-height: 7.2rem;
   font-size: 62.5%; /* 1rem = 10px */
@@ -357,8 +352,9 @@ body.menu-expanded button path {
 #home .stat p {
   margin: 0;
   color: var(--primary-color);
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 150%;
+  font-weight: bold;
 }
 
 /*==================== SERVICES ====================*/
@@ -387,8 +383,6 @@ body.menu-expanded button path {
   border-radius: .7rem;
 }
 
-
-
 #services .card h3 {
   margin-block: 1.6rem;
   color: var(--primary-color);
@@ -400,7 +394,7 @@ iframe #top-bar {
 
 div.embedded {
   display: flex;
-  height: 40rem;
+  height: 50rem;
   flex-direction: row;
   justify-content: center;
   align-items: stretch;

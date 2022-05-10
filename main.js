@@ -46,6 +46,162 @@ ScrollReveal({
   #contact a
   `)
 
+  document.getElementById("custom01ColorPalette").addEventListener("click", custom01ColorPalette)
+  function custom01ColorPalette () {
+    alert(`Prepare-se para uma nova experiência!
+
+    Esta página receberá a paleta de cores: 
+    
+    Dark Shine Sky by Eduh™
+    
+    `)
+
+    document.querySelector("#body").style.backgroundColor = "#000";
+    document.querySelector("#home").style.backgroundColor = "#000";
+    document.querySelector("#stats").style.backgroundColor = "#000";
+    document.querySelector("#services").style.backgroundColor = "#000";
+   
+    document.querySelector(".cardBlackProducts").style.backgroundColor = "#000";
+    document.querySelector(".cardBlack1").style.backgroundColor = "#000";
+    document.querySelector(".cardBlack2").style.backgroundColor = "#000";
+    document.querySelector(".cardBlack3").style.backgroundColor = "#000";
+    document.querySelector(".cardBlack4").style.backgroundColor = "#000";
+    document.querySelector(".cardBlack5").style.backgroundColor = "#000";
+    document.querySelector(".cardBlack6").style.backgroundColor = "#000";
+
+    document.querySelector(".button").style.backgroundColor = "#000";
+    document.querySelector(".button").style.borderColor = "#fff";
+    document.querySelector(".button").style.color = "green";
+
+    document.querySelector("section .button").style.backgroundColor = "#000";
+    document.querySelector("section .button").style.borderColor = "#000";
+    document.querySelector("section .button").style.color = "#fff";
+
+    document.querySelector(".menu").style.backgroundColor = "#000";
+
+    document.querySelector(".about-bg-color").style.backgroundColor = "#000";
+
+    document.querySelector(".contact-bg-color").style.backgroundColor = "#000";
+
+    document.querySelector("#navigation").style.backgroundColor = "#000";
+
+    document.querySelector("#footer").style.backgroundColor = "#000";
+  }
+
+  document.getElementById("custom02ColorPalette").addEventListener("click", custom02ColorPalette)
+  function custom02ColorPalette () {
+    alert(`Prepare-se para uma nova experiência!
+
+    Esta página receberá a paleta de cores: 
+    
+    Amazon Breathe by Eduh™
+    
+    `)
+   
+    document.querySelector(".aqui").style.color = "yellow";
+    document.querySelector("h1").style.color = "#004203";
+    document.querySelector("h2").style.color = "#004203";
+    document.querySelector(".este1").style.color = "yellow";
+    document.querySelector(".este2").style.color = "yellow";
+    document.querySelector(".este3").style.color = "yellow";
+    document.querySelector(".este4").style.color = "#004203";
+    document.querySelector(".este5").style.color = "#004203";
+    document.querySelector(".este6").style.color = "#004203";
+    document.querySelector(".aqui1").style.color = "#004203";
+    document.querySelector(".aqui2").style.color = "#004203";
+
+    document.querySelector("h4").style.color = "#fff";
+    document.querySelector("p").style.color = "#fff";
+
+    document.querySelector("#body").style.backgroundColor = "#22B103";
+    document.querySelector("#home").style.backgroundColor = "#22B103";
+
+    document.querySelector("#stats").style.backgroundColor = "#22B103";
+    document.querySelector("#stats").style.border = "#22B103";
+    document.querySelector("#stats").style.boxShadow = "0px 0px 3rem #003303";
+
+    document.querySelector("#services").style.backgroundColor = "#22B103";
+   
+    document.querySelector(".cardBlackProducts").style.backgroundColor = "#22B103";
+    document.querySelector(".cardBlackProducts").style.border = "#22B103";
+    document.querySelector(".cardBlackProducts").style.boxShadow = "0px 0px 3rem #003303";
+
+    document.querySelector(".cardBlack1").style.backgroundColor = "#22B103";
+    document.querySelector(".cardBlack1").style.border = "#22B103";
+    document.querySelector(".cardBlack1").style.boxShadow = "0px 0px 3rem #003303";
+    document.querySelector(".cardBlack1 h3").style.color = "#fff000";
+    document.querySelector(".cardBlack1 ").style.color = "000";
+
+
+    document.querySelector(".cardBlack2").style.backgroundColor = "#22B103";
+    document.querySelector(".cardBlack2").style.border = "#22B103";
+    document.querySelector(".cardBlack2").style.boxShadow = "0px 0px 3rem #003303";
+    document.querySelector(".cardBlack2 h3").style.color = "#fff000";
+
+    document.querySelector(".cardBlack3").style.backgroundColor = "#22B103";
+    document.querySelector(".cardBlack3").style.border = "#22B103";
+    document.querySelector(".cardBlack3").style.boxShadow = "0px 0px 3rem #003303";
+    document.querySelector(".cardBlack3 h3").style.color = "#fff000";
+
+    document.querySelector(".cardBlack4").style.backgroundColor = "#22B103";
+    document.querySelector(".cardBlack4").style.border = "#22B103";
+    document.querySelector(".cardBlack4").style.boxShadow = "0px 0px 3rem #003303";
+    document.querySelector(".cardBlack4 h3").style.color = "#fff000";
+
+    document.querySelector(".cardBlack5").style.backgroundColor = "#22B103";
+    document.querySelector(".cardBlack5").style.border = "#22B103";
+    document.querySelector(".cardBlack5").style.boxShadow = "0px 0px 3rem #003303";
+    document.querySelector(".cardBlack5 h3").style.color = "#fff000";
+
+    document.querySelector(".cardBlack6").style.backgroundColor = "#22B103";
+    document.querySelector(".cardBlack6").style.border = "#22B103";
+    document.querySelector(".cardBlack6").style.boxShadow = "0px 0px 3rem #003303";
+    document.querySelector(".cardBlack6 h3").style.color = "#fff000";
+
+    document.querySelector(".button").style.backgroundColor = "#228303";
+    document.querySelector(".button").style.border = "#228303";
+    document.querySelector(".button").style.color = "#fff";
+
+    document.querySelector("section .button").style.backgroundColor = "#228303";
+    document.querySelector("section .button").style.borderColor = "#228303";
+
+    document.querySelector("section .button").style.boxShadow = "0px 10px 2rem #003303";
+
+    document.querySelector("section .button").color = "#fff"
+
+    document.querySelector(".menu").style.backgroundColor = "#22B103";
+
+    document.querySelector(".about-bg-color").style.backgroundColor = "#22B103";
+
+    document.querySelector(".contact-bg-color").style.backgroundColor = "#22B103";
+
+    document.querySelector("#navigation").style.backgroundColor = "#228303";
+    
+    document.querySelector("#footer").style.backgroundColor = "#228303";
+  }
+
+  document.getElementById("custom03ColorPalette").addEventListener("click", custom03ColorPalette)
+  function custom03ColorPalette () {
+   alert(`Prepare-se para uma nova experiência!
+
+    Esta página receberá a paleta de cores: 
+    
+    Light Clean by Eduh™
+    
+    `)
+  }
+
+  document.getElementById("custom04ColorPalette").addEventListener("click", custom04ColorPalette)
+  function custom04ColorPalette () {
+    alert(`Prepare-se para uma nova experiência!
+
+    Esta página receberá a paleta de cores: 
+    
+    Hello Pink lol by Eduh™
+    
+    `)
+  }
+
   document.getElementById("defaultColorPalette").addEventListener("click", defaultColorPalette)
   function defaultColorPalette () {
     alert(`Prepare-se para uma nova experiência!
@@ -86,96 +242,4 @@ ScrollReveal({
     document.querySelector("#navigation").style.backgroundColor = "hsl(189, 55%, 50%)"; 
 
     document.querySelector("#footer").style.backgroundColor = "hsl(189, 75%, 50%)";
-  }
-
-  document.getElementById("custom01ColorPalette").addEventListener("click", custom01ColorPalette)
-  function custom01ColorPalette () {
-    alert(`Prepare-se para uma nova experiência!
-
-    Esta página receberá a paleta de cores: 
-    
-    Dark Shine Sky by Eduh™
-    
-    `)
-
-    document.querySelector("#body").style.backgroundColor = "#000";
-    document.querySelector("#home").style.backgroundColor = "#000";
-    document.querySelector("#stats").style.backgroundColor = "#000";
-    document.querySelector("#services").style.backgroundColor = "#000";
-   
-    document.querySelector(".cardBlackProducts").style.backgroundColor = "#000";
-    document.querySelector(".cardBlack1").style.backgroundColor = "#000";
-    document.querySelector(".cardBlack2").style.backgroundColor = "#000";
-    document.querySelector(".cardBlack3").style.backgroundColor = "#000";
-    document.querySelector(".cardBlack4").style.backgroundColor = "#000";
-    document.querySelector(".cardBlack5").style.backgroundColor = "#000";
-    document.querySelector(".cardBlack6").style.backgroundColor = "#000";
-
-    document.querySelector(".button").style.backgroundColor = "#000";
-    document.querySelector(".button").style.borderColor = "#fff";
-    document.querySelector(".button").style.color = "green";
-
-    document.querySelector("section .button").style.backgroundColor = "#000";
-    document.querySelector("section .button").style.borderColor = "#000";
-    document.querySelector("section .button").style.color = "#fff";
-
-    document.querySelector(".menu").style.backgroundColor = "#000";
-
-    document.querySelector(".about-bg-color").style.backgroundColor = "#000";
-
-    document.querySelector(".contact-bg-color").style.backgroundColor = "#000";
-
-    document.querySelector("#navigation").style.backgroundColor = "#000";
-    document.querySelector("#footer").style.backgroundColor = "#000";
-  }
-
-  document.getElementById("custom02ColorPalette").addEventListener("click", custom02ColorPalette)
-  function custom02ColorPalette () {
-    alert(`Prepare-se para uma nova experiência!
-
-    Esta página receberá a paleta de cores: 
-    
-    Amazon Breathe by Eduh™
-    
-    `)
-
-    document.querySelector("#body").style.backgroundColor = "#22B103";
-    document.querySelector("#home").style.backgroundColor = "#22B103";
-    document.querySelector("#stats").style.backgroundColor = "#22B103";
-    document.querySelector("#services").style.backgroundColor = "#22B103";
-   
-    document.querySelector(".cardBlackProducts").style.backgroundColor = "#22B103";
-    document.querySelector(".cardBlack1").style.backgroundColor = "#22B103";
-    document.querySelector(".cardBlack2").style.backgroundColor = "#22B103";
-    document.querySelector(".cardBlack3").style.backgroundColor = "#22B103";
-    document.querySelector(".cardBlack4").style.backgroundColor = "#22B103";
-    document.querySelector(".cardBlack5").style.backgroundColor = "#22B103";
-    document.querySelector(".cardBlack6").style.backgroundColor = "#22B103";
-
-    document.querySelector(".button").style.backgroundColor = "#228303";
-    document.querySelector(".button").style.borderColor = "#228303";
-    document.querySelector(".button").style.color = "#fff";
-
-    document.querySelector("section .button").style.backgroundColor = "#228303";
-    document.querySelector("section .button").style.borderColor = "#22B103";
-    document.querySelector("section .button").color = "#fff";
-
-
-    document.querySelector(".menu").style.backgroundColor = "#22B103";
-
-    document.querySelector(".about-bg-color").style.backgroundColor = "#22B103";
-    document.querySelector(".contact-bg-color").style.backgroundColor = "#22B103";
-
-    document.querySelector("#navigation").style.backgroundColor = "#228303";
-    document.querySelector("#footer").style.backgroundColor = "#228303";
-  }
-
-  document.getElementById("custom03ColorPalette").addEventListener("click", custom03ColorPalette)
-  function custom03ColorPalette () {
-    alert("Esta página receberá uma nova paleta de cores.")
-  }
-
-  document.getElementById("custom04ColorPalette").addEventListener("click", custom04ColorPalette)
-  function custom04ColorPalette () {
-    alert("Esta página receberá uma nova paleta de cores.")
   }
