@@ -260,6 +260,8 @@ ScrollReveal({
 
     document.getElementById('iframeProducts').src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQvade7ScN6Zq_7y_NkC0NAD6sE6FG3oWDGKAiAdTNNR2tzoOmEwjZ3kN8UM8C5xB4E6_As4y-wy1lU/pubhtml?gid=1476416633&amp;single=true&amp;widget=true&amp;headers=false";
 
+    document.getElementById('iframeProducts #top-bar').display = "none";
+
     document.querySelector(".aqui1").style.color = "#00d9ff";
     document.querySelector(".aqui2").style.color = "#00d9ff";
 
