@@ -56,18 +56,68 @@ ScrollReveal({
     
     `)
 
+    document.querySelector(".aqui1").style.color = "#00d9ff";
+    document.querySelector(".aqui2").style.color = "#00d9ff";
+
+    document.querySelector("h1").style.color = "beige";
+    document.querySelector("h2").style.color = "#00d9ff";
+    document.querySelector("h4").style.color = "#00d9ff";
+    document.querySelector("p").style.color = "#fff";
+
+    document.querySelector(".este1").style.color = "#00d9ff";
+    document.querySelector(".este2").style.color = "#00d9ff";
+    document.querySelector(".este3").style.color = "#00d9ff";
+    document.querySelector(".este4").style.color = "#fff";
+    document.querySelector(".este5").style.color = "#fff";
+    document.querySelector(".este6").style.color = "#fff";
+
     document.querySelector("#body").style.backgroundColor = "#000";
     document.querySelector("#home").style.backgroundColor = "#000";
+
     document.querySelector("#stats").style.backgroundColor = "#000";
+    document.querySelector("#stats").style.border = "#00d9ff";
+    document.querySelector("#stats").style.boxShadow = "0px 0px 3rem #00d9ff";
+
     document.querySelector("#services").style.backgroundColor = "#000";
    
     document.querySelector(".cardBlackProducts").style.backgroundColor = "#000";
+    document.querySelector(".cardBlackProducts").style.border = "3px solid #00d9ff";
+    document.querySelector(".cardBlackProducts").style.boxShadow = "0px 0px 3rem #00d9ff";
+
     document.querySelector(".cardBlack1").style.backgroundColor = "#000";
+    document.querySelector(".cardBlack1").style.border = "3px solid #00d9ff";
+    document.querySelector(".cardBlack1").style.boxShadow = "0px 0px 2rem #00d9ff";
+    document.querySelector(".cardBlack1 h3").style.color = "#00d9ff";
+
     document.querySelector(".cardBlack2").style.backgroundColor = "#000";
+    document.querySelector(".cardBlack2").style.border = "3px solid #00d9ff";
+    document.querySelector(".cardBlack2").style.boxShadow = "0px 0px 2rem #00d9ff";
+    document.querySelector(".cardBlack2 h3").style.color = "#00d9ff";
+  
+
     document.querySelector(".cardBlack3").style.backgroundColor = "#000";
+    document.querySelector(".cardBlack3").style.border = "3px solid #00d9ff";
+    document.querySelector(".cardBlack3").style.boxShadow = "0px 0px 2rem #00d9ff";
+    document.querySelector(".cardBlack3 h3").style.color = "#00d9ff";
+
+
     document.querySelector(".cardBlack4").style.backgroundColor = "#000";
+    document.querySelector(".cardBlack4").style.border = "3px solid #00d9ff";
+    document.querySelector(".cardBlack4").style.boxShadow = "0px 0px 2rem #00d9ff";
+    document.querySelector(".cardBlack4 h3").style.color = "#00d9ff";
+
+
     document.querySelector(".cardBlack5").style.backgroundColor = "#000";
+    document.querySelector(".cardBlack5").style.border = "3px solid #00d9ff";
+    document.querySelector(".cardBlack5").style.boxShadow = "0px 0px 2rem #00d9ff";
+    document.querySelector(".cardBlack5 h3").style.color = "#00d9ff";
+
+
     document.querySelector(".cardBlack6").style.backgroundColor = "#000";
+    document.querySelector(".cardBlack6").style.border = "3px solid #00d9ff";
+    document.querySelector(".cardBlack6").style.boxShadow = "0px 0px 2rem #00d9ff";
+    document.querySelector(".cardBlack6 h3").style.color = "#00d9ff";
+
 
     document.querySelector(".button").style.backgroundColor = "#000";
     document.querySelector(".button").style.borderColor = "#fff";
@@ -75,16 +125,13 @@ ScrollReveal({
 
     document.querySelector("section .button").style.backgroundColor = "#000";
     document.querySelector("section .button").style.borderColor = "#000";
+    document.querySelector("section .button").style.boxShadow = "0px 0px 2rem #00d9ff";
     document.querySelector("section .button").style.color = "#fff";
 
     document.querySelector(".menu").style.backgroundColor = "#000";
-
     document.querySelector(".about-bg-color").style.backgroundColor = "#000";
-
     document.querySelector(".contact-bg-color").style.backgroundColor = "#000";
-
     document.querySelector("#navigation").style.backgroundColor = "#000";
-
     document.querySelector("#footer").style.backgroundColor = "#000";
   }
 
@@ -98,21 +145,21 @@ ScrollReveal({
     
     `)
    
-    document.querySelector(".aqui").style.color = "yellow";
+    document.querySelector(".aqui1").style.color = "#004203";
+    document.querySelector(".aqui2").style.color = "#004203";
+
     document.querySelector("h1").style.color = "#004203";
     document.querySelector("h2").style.color = "#004203";
+    document.querySelector("h4").style.color = "#fff";
+    document.querySelector("p").style.color = "#fff";
+
     document.querySelector(".este1").style.color = "yellow";
     document.querySelector(".este2").style.color = "yellow";
     document.querySelector(".este3").style.color = "yellow";
     document.querySelector(".este4").style.color = "#004203";
     document.querySelector(".este5").style.color = "#004203";
     document.querySelector(".este6").style.color = "#004203";
-    document.querySelector(".aqui1").style.color = "#004203";
-    document.querySelector(".aqui2").style.color = "#004203";
-
-    document.querySelector("h4").style.color = "#fff";
-    document.querySelector("p").style.color = "#fff";
-
+  
     document.querySelector("#body").style.backgroundColor = "#22B103";
     document.querySelector("#home").style.backgroundColor = "#22B103";
 
@@ -130,8 +177,6 @@ ScrollReveal({
     document.querySelector(".cardBlack1").style.border = "#22B103";
     document.querySelector(".cardBlack1").style.boxShadow = "0px 0px 3rem #003303";
     document.querySelector(".cardBlack1 h3").style.color = "#fff000";
-    document.querySelector(".cardBlack1 ").style.color = "000";
-
 
     document.querySelector(".cardBlack2").style.backgroundColor = "#22B103";
     document.querySelector(".cardBlack2").style.border = "#22B103";
@@ -164,19 +209,13 @@ ScrollReveal({
 
     document.querySelector("section .button").style.backgroundColor = "#228303";
     document.querySelector("section .button").style.borderColor = "#228303";
-
     document.querySelector("section .button").style.boxShadow = "0px 10px 2rem #003303";
-
     document.querySelector("section .button").color = "#fff"
 
     document.querySelector(".menu").style.backgroundColor = "#22B103";
-
     document.querySelector(".about-bg-color").style.backgroundColor = "#22B103";
-
     document.querySelector(".contact-bg-color").style.backgroundColor = "#22B103";
-
     document.querySelector("#navigation").style.backgroundColor = "#228303";
-    
     document.querySelector("#footer").style.backgroundColor = "#228303";
   }
 
@@ -208,7 +247,7 @@ ScrollReveal({
 
     Esta página receberá a paleta de cores: 
     
-    Happy Blue Day Alive by Eduh™
+    Blue Alive Day by Eduh™
     
     `)
 
