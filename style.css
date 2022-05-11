@@ -402,10 +402,10 @@ div.embedded {
   position: relative;
   display: flex;
  
-  width: 110%;
-  height: 50rem;
-  margin-top: -5rem;
-  margin-left: -2px;
+  width: 105%;
+
+  margin-top: -4rem;
+  margin-left: -.2rem;
 
   }
 
