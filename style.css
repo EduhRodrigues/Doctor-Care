@@ -394,7 +394,7 @@ body.menu-expanded button path {
 .raider {
   display: inline-block;
   width: 29rem;
-  height: 49rem;
+  height: 48.5rem;
   overflow: hidden;
 }
 
@@ -404,7 +404,7 @@ div.embedded {
  
   width: 110%;
 
-  margin-top: -3rem;
+  margin-top: -3.5rem;
   margin-left: -.2rem;
 
   }
