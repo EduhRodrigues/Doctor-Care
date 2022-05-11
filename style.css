@@ -393,22 +393,19 @@ body.menu-expanded button path {
 
 .raider {
   display: inline-block;
-  width: 30rem;
+  width: 29rem;
   height: 50rem;
   overflow: hidden;
-  z-index: 300;
 }
+
 div.embedded {
   position: relative;
   display: flex;
  
   width: 100%;
   height: 50rem;
+  margin-top: -5rem;
 
-  height: 100%;
-  
-  margin-top: -20rem;
-  margin-right: -20rem;
   }
 
 span {
