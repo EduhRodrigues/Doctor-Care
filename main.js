@@ -275,12 +275,11 @@ ScrollReveal({
     document.querySelector("#stats").style.border = "3px solid #00d9ff";
     document.querySelector("#stats").style.boxShadow = "0px 0px 3rem #00d9ff";
 
-
     document.querySelector("#services").style.backgroundColor = "#00f";
 
     document.querySelector(".cardBlackProducts").style.backgroundColor = "#00f";
     document.querySelector(".cardBlackProducts").style.border = "3px solid #00d9ff";
-    document.querySelector(".cardBlackProducts").style.boxShadow = "0px 0px 3rem #00d9ff";c
+    document.querySelector(".cardBlackProducts").style.boxShadow = "0px 0px 3rem #00d9ff";
     document.querySelector(".cardBlackProducts h3").style.color = "#00d9ff";
 
     document.querySelector(".cardBlack1").style.backgroundColor = "#00f";
@@ -325,6 +324,6 @@ ScrollReveal({
     document.querySelector(".menu").style.backgroundColor = "#00f";
     document.querySelector(".about-bg-color").style.backgroundColor = "#00f";
     document.querySelector(".contact-bg-color").style.backgroundColor = "#00f";
-    document.querySelector("#navigation").style.backgroundColor = "#00d9ff"; 
+    document.querySelector("#navigation").style.backgroundColor = "#00d9ff";
     document.querySelector("#footer").style.backgroundColor = "#00d9ff";
   }
