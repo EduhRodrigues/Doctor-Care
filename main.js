@@ -324,6 +324,6 @@ ScrollReveal({
     document.querySelector(".menu").style.backgroundColor = "#00f";
     document.querySelector(".about-bg-color").style.backgroundColor = "#00f";
     document.querySelector(".contact-bg-color").style.backgroundColor = "#00f";
-    document.querySelector("#navigation").style.backgroundColor = "#00d9ff";
-    document.querySelector("#footer").style.backgroundColor = "#00d9ff";
+    document.querySelector("#navigation").style.backgroundColor = "#1f54ff";
+    document.querySelector("#footer").style.backgroundColor = "#1f54ff";
   }
