@@ -56,6 +56,8 @@ ScrollReveal({
     
     `)
 
+    document.getElementById('iframeProducts').src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQoHx1_iniuYaD89UITs6JglwISLg8OxpZoEYYDDVBMxYITsCMOsEyJ5ALC-9l6BO2z1uLnMa227a-R/pubhtml?gid=1476416633&amp;single=true&amp;widget=true&amp;headers=false";
+
     document.querySelector(".aqui1").style.color = "#00d9ff";
     document.querySelector(".aqui2").style.color = "#00d9ff";
 
@@ -145,6 +147,8 @@ ScrollReveal({
     Amazon Breathe by Eduh™
     
     `)
+
+    document.getElementById('iframeProducts').src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQTZpnLzMpDCScHrUr31gtuKTYW2AtouDVTFD0zFcf5fMLjSyT0OcZ-9fyEOf-ZQk8qb5Sr9rTfpT6/pubhtml?gid=1476416633&amp;single=true&amp;widget=true&amp;headers=false";
    
     document.querySelector(".aqui1").style.color = "#004203";
     document.querySelector(".aqui2").style.color = "#004203";
@@ -242,8 +246,9 @@ ScrollReveal({
     
     `)
   }
-
-  document.getElementById("defaultColorPalette").addEventListener("click", defaultColorPalette)
+   
+  document.getElementById("defaultColorPalette").addEventListener("click", defaultColorPalette);
+ 
   function defaultColorPalette () {
     alert(`Prepare-se para uma nova experiência!
 
@@ -252,6 +257,8 @@ ScrollReveal({
     Blue Alive Day by Eduh™
     
     `)
+
+    document.getElementById('iframeProducts').src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQvade7ScN6Zq_7y_NkC0NAD6sE6FG3oWDGKAiAdTNNR2tzoOmEwjZ3kN8UM8C5xB4E6_As4y-wy1lU/pubhtml?gid=1476416633&amp;single=true&amp;widget=true&amp;headers=false";
 
     document.querySelector(".aqui1").style.color = "#00d9ff";
     document.querySelector(".aqui2").style.color = "#00d9ff";
