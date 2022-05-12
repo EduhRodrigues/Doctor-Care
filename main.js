@@ -93,6 +93,8 @@ ScrollReveal({
     document.querySelector(".cardBlack1").style.boxShadow = "0px 0px 2rem #00d9ff";
     document.querySelector(".cardBlack1 circle").style.fill = "#00d9ff";
     document.querySelector(".cardBlack1 path").style.stroke = "#000";
+    document.querySelector(".cardBlack1 .newStoreSpan").style.color = "#00d9ff";
+    document.querySelector(".cardBlack1 .roteSpan").style.color = "#00d9ff";
 
     document.querySelector(".cardBlack2 h3").style.color = "#00d9ff";
     document.querySelector(".cardBlack2").style.backgroundColor = "#000";
@@ -100,6 +102,8 @@ ScrollReveal({
     document.querySelector(".cardBlack2").style.boxShadow = "0px 0px 2rem #00d9ff";
     document.querySelector(".cardBlack2 circle").style.fill = "#00d9ff";
     document.querySelector(".cardBlack2 path").style.stroke = "#000";
+    document.querySelector(".cardBlack2 .freeDeliverySpan").style.color = "#00d9ff";
+    document.querySelector(".cardBlack2 .discountCouponSpan").style.color = "#00d9ff";
   
     document.querySelector(".cardBlack3 h3").style.color = "#00d9ff";
     document.querySelector(".cardBlack3").style.backgroundColor = "#000";
@@ -107,6 +111,9 @@ ScrollReveal({
     document.querySelector(".cardBlack3").style.boxShadow = "0px 0px 2rem #00d9ff";
     document.querySelector(".cardBlack3 circle").style.fill = "#00d9ff";
     document.querySelector(".cardBlack3 path").style.stroke = "#000";
+    document.querySelector(".cardBlack3 .emergencyCareSpan").style.color = "#00d9ff";
+    document.querySelector(".cardBlack3 .freeSpan").style.color = "#00d9ff";
+    document.querySelector(".cardBlack3 .callNowSpan").style.color = "#00d9ff";
 
     document.querySelector(".cardBlack4 h3").style.color = "#00d9ff";
     document.querySelector(".cardBlack4").style.backgroundColor = "#000";
@@ -114,6 +121,8 @@ ScrollReveal({
     document.querySelector(".cardBlack4").style.boxShadow = "0px 0px 2rem #00d9ff";
     document.querySelector(".cardBlack4 circle").style.fill = "#00d9ff";
     document.querySelector(".cardBlack4 path").style.stroke = "#000";
+    document.querySelector(".cardBlack4 .vaccinationSpan").style.color = "#00d9ff";
+    document.querySelector(".cardBlack4 .antiParasiticSpan").style.color = "#00d9ff";
 
     document.querySelector(".cardBlack5 h3").style.color = "#00d9ff";
     document.querySelector(".cardBlack5").style.backgroundColor = "#000";
@@ -121,6 +130,10 @@ ScrollReveal({
     document.querySelector(".cardBlack5").style.boxShadow = "0px 0px 2rem #00d9ff";
     document.querySelector(".cardBlack5 circle").style.fill = "#00d9ff";
     document.querySelector(".cardBlack5 path").style.stroke = "#000";
+    document.querySelector(".cardBlack5 .showerSpan").style.color = "#00d9ff";
+    document.querySelector(".cardBlack5 .aestheticsSpan").style.color = "#00d9ff";
+    document.querySelector(".cardBlack5 .storeSpan").style.color = "#00d9ff";
+    document.querySelector(".cardBlack5 .residenceSpan").style.color = "#00d9ff";
 
     document.querySelector(".cardBlack6 h3").style.color = "#00d9ff";
     document.querySelector(".cardBlack6").style.backgroundColor = "#000";
@@ -128,6 +141,9 @@ ScrollReveal({
     document.querySelector(".cardBlack6").style.boxShadow = "0px 0px 2rem #00d9ff";
     document.querySelector(".cardBlack6 circle").style.fill = "#00d9ff";
     document.querySelector(".cardBlack6 path").style.stroke = "#000";
+    document.querySelector(".cardBlack6 .walkingSpan").style.color = "#00d9ff";
+    document.querySelector(".cardBlack6 .playgroundSpan").style.color = "#00d9ff";
+    document.querySelector(".cardBlack6 .socializationSpan").style.color = "#00d9ff";
 
 
     document.querySelector(".button").style.backgroundColor = "#000";
@@ -345,6 +361,8 @@ ScrollReveal({
     document.querySelector(".cardBlack1").style.boxShadow = "0px 0px 1rem #640064";
     document.querySelector(".cardBlack1 circle").style.fill = "#fff";
     document.querySelector(".cardBlack1 path").style.stroke = "#ff00ff";
+    document.querySelector(".cardBlack1 .newStoreSpan").style.color = "#640064";
+    document.querySelector(".cardBlack1 .roteSpan").style.color = "#640064";
    
     document.querySelector(".cardBlack2 h3").style.color = "#640064";
     document.querySelector(".cardBlack2").style.backgroundColor = "#ff00ff";
@@ -352,6 +370,8 @@ ScrollReveal({
     document.querySelector(".cardBlack2").style.boxShadow = "0px 0px 1rem #640064";
     document.querySelector(".cardBlack2 circle").style.fill = "#fff";
     document.querySelector(".cardBlack2 path").style.stroke = "#ff00ff";
+    document.querySelector(".cardBlack2 .freeDeliverySpan").style.color = "#640064";
+    document.querySelector(".cardBlack2 .discountCouponSpan").style.color = "#640064";
    
     document.querySelector(".cardBlack3 h3").style.color = "#640064";
     document.querySelector(".cardBlack3").style.backgroundColor = "#ff00ff";
@@ -359,6 +379,9 @@ ScrollReveal({
     document.querySelector(".cardBlack3").style.boxShadow = "0px 0px 1rem #640064";
     document.querySelector(".cardBlack3 circle").style.fill = "#fff";
     document.querySelector(".cardBlack3 path").style.stroke = "#ff00ff";
+    document.querySelector(".cardBlack3 .emergencyCareSpan").style.color = "#640064";
+    document.querySelector(".cardBlack3 .freeSpan").style.color = "#640064";
+    document.querySelector(".cardBlack3 .callNowSpan").style.color = "#640064";
     
     document.querySelector(".cardBlack4 h3").style.color = "#640064";
     document.querySelector(".cardBlack4").style.backgroundColor = "#ff00ff";
@@ -366,6 +389,8 @@ ScrollReveal({
     document.querySelector(".cardBlack4").style.boxShadow = "0px 0px 1rem #640064";
     document.querySelector(".cardBlack4 circle").style.fill = "#fff";
     document.querySelector(".cardBlack4 path").style.stroke = "#ff00ff";
+    document.querySelector(".cardBlack4 .vaccinationSpan").style.color = "#640064";
+    document.querySelector(".cardBlack4 .antiParasiticSpan").style.color = "#640064";
     
     document.querySelector(".cardBlack5 h3").style.color = "#640064";
     document.querySelector(".cardBlack5").style.backgroundColor = "#ff00ff";
@@ -373,6 +398,10 @@ ScrollReveal({
     document.querySelector(".cardBlack5").style.boxShadow = "0px 0px 1rem #640064";
     document.querySelector(".cardBlack5 circle").style.fill = "#fff";
     document.querySelector(".cardBlack5 path").style.stroke = "#ff00ff";
+    document.querySelector(".cardBlack5 .showerSpan").style.color = "#640064";
+    document.querySelector(".cardBlack5 .aestheticsSpan").style.color = "#640064";
+    document.querySelector(".cardBlack5 .storeSpan").style.color = "#640064";
+    document.querySelector(".cardBlack5 .residenceSpan").style.color = "#640064";
    
     document.querySelector(".cardBlack6 h3").style.color = "#640064";
     document.querySelector(".cardBlack6").style.backgroundColor = "#ff00ff";
@@ -380,6 +409,9 @@ ScrollReveal({
     document.querySelector(".cardBlack6").style.boxShadow = "0px 0px 1rem #640064";
     document.querySelector(".cardBlack6 circle").style.fill = "#fff";
     document.querySelector(".cardBlack6 path").style.stroke = "#ff00ff";
+    document.querySelector(".cardBlack6 .walkingSpan").style.color = "#640064";
+    document.querySelector(".cardBlack6 .playgroundSpan").style.color = "#640064";
+    document.querySelector(".cardBlack6 .socializationSpan").style.color = "#640064";
     
     document.querySelector(".button").style.backgroundColor = "#ff00ff";
     document.querySelector(".button").style.borderColor = "#fff";
@@ -459,6 +491,8 @@ ScrollReveal({
     document.querySelector(".cardBlack1").style.boxShadow = "0px 0px 3rem #00d9ff";
     document.querySelector(".cardBlack1 circle").style.fill = "#1f54ff";
     document.querySelector(".cardBlack1 path").style.stroke = "#fff";
+    document.querySelector(".cardBlack1 .newStoreSpan").style.color = "#00d9ff";
+    document.querySelector(".cardBlack1 .roteSpan").style.color = "#00d9ff";
   
     document.querySelector(".cardBlack2 h3").style.color = "#00d9ff";
     document.querySelector(".cardBlack2").style.backgroundColor = "#00f";
@@ -466,6 +500,8 @@ ScrollReveal({
     document.querySelector(".cardBlack2").style.boxShadow = "0px 0px 3rem #00d9ff";
     document.querySelector(".cardBlack2 circle").style.fill = "#1f54ff";
     document.querySelector(".cardBlack2 path").style.stroke = "#fff";
+    document.querySelector(".cardBlack2 .freeDeliverySpan").style.color = "#00d9ff";
+    document.querySelector(".cardBlack2 .discountCouponSpan").style.color = "#00d9ff";
     
     document.querySelector(".cardBlack3 h3").style.color = "#00d9ff";
     document.querySelector(".cardBlack3").style.backgroundColor = "#00f";
@@ -473,6 +509,9 @@ ScrollReveal({
     document.querySelector(".cardBlack3").style.boxShadow = "0px 0px 3rem #00d9ff";
     document.querySelector(".cardBlack3 circle").style.fill = "#1f54ff";
     document.querySelector(".cardBlack3 path").style.stroke = "#fff";
+    document.querySelector(".cardBlack3 .emergencyCareSpan").style.color = "#00d9ff";
+    document.querySelector(".cardBlack3 .freeSpan").style.color = "#00d9ff";
+    document.querySelector(".cardBlack3 .callNowSpan").style.color = "#00d9ff";
     
     document.querySelector(".cardBlack4 h3").style.color = "#00d9ff";
     document.querySelector(".cardBlack4").style.backgroundColor = "#00f";
@@ -480,6 +519,8 @@ ScrollReveal({
     document.querySelector(".cardBlack4").style.boxShadow = "0px 0px 3rem #00d9ff";
     document.querySelector(".cardBlack4 circle").style.fill = "#1f54ff";
     document.querySelector(".cardBlack4 path").style.stroke = "#fff";
+    document.querySelector(".cardBlack4 .vaccinationSpan").style.color = "#00d9ff";
+    document.querySelector(".cardBlack4 .antiParasiticSpan").style.color = "#00d9ff";
 
     document.querySelector(".cardBlack5 h3").style.color = "#00d9ff";
     document.querySelector(".cardBlack5").style.backgroundColor = "#00f";
@@ -487,6 +528,10 @@ ScrollReveal({
     document.querySelector(".cardBlack5").style.boxShadow = "0px 0px 3rem #00d9ff";
     document.querySelector(".cardBlack5 circle").style.fill = "#1f54ff";
     document.querySelector(".cardBlack5 path").style.stroke = "#fff";
+    document.querySelector(".cardBlack5 .showerSpan").style.color = "#00d9ff";
+    document.querySelector(".cardBlack5 .aestheticsSpan").style.color = "#00d9ff";
+    document.querySelector(".cardBlack5 .storeSpan").style.color = "#00d9ff";
+    document.querySelector(".cardBlack5 .residenceSpan").style.color = "#00d9ff";
     
     document.querySelector(".cardBlack6 h3").style.color = "#00d9ff";
     document.querySelector(".cardBlack6").style.backgroundColor = "#00f";
@@ -494,6 +539,9 @@ ScrollReveal({
     document.querySelector(".cardBlack6").style.boxShadow = "0px 0px 3rem #00d9ff";
     document.querySelector(".cardBlack6 circle").style.fill = "#1f54ff";
     document.querySelector(".cardBlack6 path").style.stroke = "#fff";
+    document.querySelector(".cardBlack6 .walkingSpan").style.color = "#00d9ff";
+    document.querySelector(".cardBlack6 .playgroundSpan").style.color = "#00d9ff";
+    document.querySelector(".cardBlack6 .socializationSpan").style.color = "#00d9ff";
     
     document.querySelector(".button").style.backgroundColor = "#00f";
     document.querySelector(".button").style.borderColor = "#00f";
