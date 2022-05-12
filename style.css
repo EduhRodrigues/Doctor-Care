@@ -52,7 +52,7 @@ body {
 }
 
 .wrapper {
-  width: 40rem;
+  width: 38rem;
   margin-inline: auto;
   padding-inline: 2.4rem;
 }
@@ -120,7 +120,7 @@ section .button {
   padding: 1.6rem 3.2rem;
   width: fit-content;
   letter-spacing: 1px;
-  color: var(--paragraph);
+  color: var(--primary-color);
   font-size: 1.4rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -129,14 +129,14 @@ section .button {
   align-items: center;
   justify-content: center;
   gap: 1.6rem;
-}
+ }
 
 .button:hover {
   background: var(--primary-color);
   box-shadow: 0px 0px 2rem var(--paragraph); 
-  color: var(--paragraph);
-  transform: scale(1.1);
-  transition: background .6s ease-in-out;
+  color: #fff;1
+  /*transition: .3s ease-in-out;
+  transform: scale(1.1);*/
 }
 
 /*==================== NAVIGATION ====================*/
@@ -464,17 +464,18 @@ span {
   display: flex;
   margin-top: 4.8rem;
   margin-bottom: 8rem;
-  color: var(--paragraph);
+  color: var(--primary-color);
   border: 3px solid var(--primary-color);
   margin-left: -.7rem;
+  transition: all .3s ease-in-out;
 }
 
 #contact .button:hover {
   background: var(--primary-color);
-  color: var(--down-bg-color);
-  transition: .3s ease-in-out;
-  box-shadow: 0px 0px 2rem var(--down-bg-color);
-  transform: scale(1.05);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  transition: .3s;
+  transform: scale(1.1);
 }
 
 #contact .content svg path {

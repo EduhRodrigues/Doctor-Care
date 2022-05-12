@@ -136,6 +136,11 @@ ScrollReveal({
     document.querySelector("#contact .button").style.borderColor = "#000";
     document.querySelector("#contact .button").style.boxShadow =  "0px 0px 2rem #00d9ff";
 
+    document.getElementById("here1").style.stroke = "#00d9ff";
+    document.getElementById("here2").style.stroke = "#00d9ff";
+    document.getElementById("here3").style.stroke = "#00d9ff";
+    document.getElementById("here4").style.stroke = "#00d9ff";
+
     document.querySelector(".about-bg-color").style.backgroundColor = "#000";
     document.querySelector("#about h2").style.color = "#00d9ff";
 
@@ -229,6 +234,11 @@ ScrollReveal({
     document.querySelector("#contact .button").style.borderColor = "#228303";
     document.querySelector("#contact .button").style.boxShadow =  "0px 10px 2rem #003303";
 
+    document.getElementById("here1").style.stroke = "#228303";
+    document.getElementById("here2").style.stroke = "#228303";
+    document.getElementById("here3").style.stroke = "#228303";
+    document.getElementById("here4").style.stroke = "#228303";
+
     document.querySelector(".about-bg-color").style.backgroundColor = "#22B103";
     document.querySelector("#about h2").style.color = "yellow";
 
@@ -288,32 +298,32 @@ ScrollReveal({
 
     document.querySelector(".cardBlack1").style.backgroundColor = "#ff00ff";
     document.querySelector(".cardBlack1").style.border = "5px solid #c000c0";
-    document.querySelector(".cardBlack1").style.boxShadow = "0px 0px 2rem #640064";
+    document.querySelector(".cardBlack1").style.boxShadow = "0px 0px 1rem #640064";
     document.querySelector(".cardBlack1 h3").style.color = "#640064";
 
     document.querySelector(".cardBlack2").style.backgroundColor = "#ff00ff";
     document.querySelector(".cardBlack2").style.border = "5px solid #c000c0";
-    document.querySelector(".cardBlack2").style.boxShadow = "0px 0px 2rem #640064";
+    document.querySelector(".cardBlack2").style.boxShadow = "0px 0px 1rem #640064";
     document.querySelector(".cardBlack2 h3").style.color = "#640064";
 
     document.querySelector(".cardBlack3").style.backgroundColor = "#ff00ff";
     document.querySelector(".cardBlack3").style.border = "5px solid #c000c0";
-    document.querySelector(".cardBlack3").style.boxShadow = "0px 0px 2rem #640064";
+    document.querySelector(".cardBlack3").style.boxShadow = "0px 0px 1rem #640064";
     document.querySelector(".cardBlack3 h3").style.color = "#640064";
 
     document.querySelector(".cardBlack4").style.backgroundColor = "#ff00ff";
     document.querySelector(".cardBlack4").style.border = "5px solid #c000c0";
-    document.querySelector(".cardBlack4").style.boxShadow = "0px 0px 2rem #640064";
+    document.querySelector(".cardBlack4").style.boxShadow = "0px 0px 1rem #640064";
     document.querySelector(".cardBlack4 h3").style.color = "#640064";
 
     document.querySelector(".cardBlack5").style.backgroundColor = "#ff00ff";
     document.querySelector(".cardBlack5").style.border = "5px solid #c000c0";
-    document.querySelector(".cardBlack5").style.boxShadow = "0px 0px 2rem #640064";
+    document.querySelector(".cardBlack5").style.boxShadow = "0px 0px 1rem #640064";
     document.querySelector(".cardBlack5 h3").style.color = "#640064";
 
     document.querySelector(".cardBlack6").style.backgroundColor = "#ff00ff";
     document.querySelector(".cardBlack6").style.border = "5px solid #c000c0";
-    document.querySelector(".cardBlack6").style.boxShadow = "0px 0px 2rem #640064";
+    document.querySelector(".cardBlack6").style.boxShadow = "0px 0px 1rem #640064";
     document.querySelector(".cardBlack6 h3").style.color = "#640064";
 
     document.querySelector(".button").style.backgroundColor = "#ff00ff";
@@ -330,6 +340,11 @@ ScrollReveal({
     document.querySelector("#contact .button").style.backgroundColor = "#c000c0";
     document.querySelector("#contact .button").style.border = "5px solid #ff00ff";
     document.querySelector("#contact .button").style.boxShadow = "0px 10px 2rem #640064";
+
+    document.getElementById("here1").style.stroke = "#640064";
+    document.getElementById("here2").style.stroke = "#640064";
+    document.getElementById("here3").style.stroke = "#640064";
+    document.getElementById("here4").style.stroke = "#640064";
 
     document.querySelector(".about-bg-color").style.backgroundColor = "#ff00ff";
     document.querySelector("#about h2").style.color = "#640064";
@@ -426,6 +441,11 @@ ScrollReveal({
     document.querySelector("#contact .button").style.backgroundColor = "#00f";
     document.querySelector("#contact .button").style.borderColor = "#00f";
     document.querySelector("#contact .button").style.boxShadow = "0px 0px 2rem #000";
+
+    document.getElementById("here1").style.stroke = "#00d9ff";
+    document.getElementById("here2").style.stroke = "#00d9ff";
+    document.getElementById("here3").style.stroke = "#00d9ff";
+    document.getElementById("here4").style.stroke = "#00d9ff";
 
     document.querySelector(".about-bg-color").style.backgroundColor = "#00f";
     document.querySelector("#about h2").style.color = "#00d9ff";
