@@ -466,7 +466,7 @@ span {
   margin-bottom: 8rem;
   color: var(--paragraph);
   border: 3px solid var(--primary-color);
-  margin-left: 2rem;
+  margin-left: -.7rem;
 }
 
 #contact .button:hover {
