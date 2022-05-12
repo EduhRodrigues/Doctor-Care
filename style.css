@@ -18,7 +18,7 @@
 
 --defaultColorPalette:  #0000ff;
 
---test-color: #7eecff;
+--test-color: #2fff00;
 
 /*========= COLOR SET =========*/
   --down-bg-color: var(--defaultColorPalette);
@@ -134,7 +134,7 @@ section .button {
 .button:hover {
   background: var(--primary-color);
   box-shadow: 0px 0px 2rem var(--paragraph); 
-  color: #fff;1
+  color: #fff;
   /*transition: .3s ease-in-out;
   transform: scale(1.1);*/
 }
@@ -270,11 +270,11 @@ body.menu-expanded .menu {
 
 #services .card circle {
   fill: var(--primary-color);
-
 }
+
 #services .card path {
   stroke: var(--down-bg-color);
-  }
+}
 
 body.menu-expanded .logo,
 body.menu-expanded button {
@@ -464,7 +464,7 @@ span {
   display: flex;
   margin-top: 4.8rem;
   margin-bottom: 8rem;
-  color: var(--primary-color);
+  color: #fff;
   border: 3px solid var(--primary-color);
   margin-left: -.7rem;
   transition: all .3s ease-in-out;
@@ -472,8 +472,7 @@ span {
 
 #contact .button:hover {
   background: var(--primary-color);
-  color: rgb(255, 255, 255);
-  font-weight: bold;
+  color: rgb(255, 238, 0);
   transition: .3s;
   transform: scale(1.1);
 }

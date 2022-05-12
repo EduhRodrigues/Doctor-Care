@@ -82,42 +82,52 @@ ScrollReveal({
    
     document.querySelector(".cardBlackProducts").style.backgroundColor = "#000";
     document.querySelector(".cardBlackProducts").style.border = "3px solid #00d9ff";
-    document.querySelector(".cardBlackProducts").style.boxShadow = "0px 0px 3rem #00d9ff";
+    document.querySelector(".cardBlackProducts").style.boxShadow = "0px 0px 3rem c";
     document.querySelector(".cardBlackProducts").style.color = "#00d9ff";
+    document.querySelector(".cardBlackProducts circle").style.fill = "#00d9ff";
+    document.querySelector(".cardBlackProducts path").style.stroke = "#000";
 
+    document.querySelector(".cardBlack1 h3").style.color = "#00d9ff";
     document.querySelector(".cardBlack1").style.backgroundColor = "#000";
     document.querySelector(".cardBlack1").style.border = "3px solid #00d9ff";
     document.querySelector(".cardBlack1").style.boxShadow = "0px 0px 2rem #00d9ff";
-    document.querySelector(".cardBlack1 h3").style.color = "#00d9ff";
+    document.querySelector(".cardBlack1 circle").style.fill = "#00d9ff";
+    document.querySelector(".cardBlack1 path").style.stroke = "#000";
 
+    document.querySelector(".cardBlack2 h3").style.color = "#00d9ff";
     document.querySelector(".cardBlack2").style.backgroundColor = "#000";
     document.querySelector(".cardBlack2").style.border = "3px solid #00d9ff";
     document.querySelector(".cardBlack2").style.boxShadow = "0px 0px 2rem #00d9ff";
-    document.querySelector(".cardBlack2 h3").style.color = "#00d9ff";
+    document.querySelector(".cardBlack2 circle").style.fill = "#00d9ff";
+    document.querySelector(".cardBlack2 path").style.stroke = "#000";
   
-
+    document.querySelector(".cardBlack3 h3").style.color = "#00d9ff";
     document.querySelector(".cardBlack3").style.backgroundColor = "#000";
     document.querySelector(".cardBlack3").style.border = "3px solid #00d9ff";
     document.querySelector(".cardBlack3").style.boxShadow = "0px 0px 2rem #00d9ff";
-    document.querySelector(".cardBlack3 h3").style.color = "#00d9ff";
+    document.querySelector(".cardBlack3 circle").style.fill = "#00d9ff";
+    document.querySelector(".cardBlack3 path").style.stroke = "#000";
 
-
+    document.querySelector(".cardBlack4 h3").style.color = "#00d9ff";
     document.querySelector(".cardBlack4").style.backgroundColor = "#000";
     document.querySelector(".cardBlack4").style.border = "3px solid #00d9ff";
     document.querySelector(".cardBlack4").style.boxShadow = "0px 0px 2rem #00d9ff";
-    document.querySelector(".cardBlack4 h3").style.color = "#00d9ff";
+    document.querySelector(".cardBlack4 circle").style.fill = "#00d9ff";
+    document.querySelector(".cardBlack4 path").style.stroke = "#000";
 
-
+    document.querySelector(".cardBlack5 h3").style.color = "#00d9ff";
     document.querySelector(".cardBlack5").style.backgroundColor = "#000";
     document.querySelector(".cardBlack5").style.border = "3px solid #00d9ff";
     document.querySelector(".cardBlack5").style.boxShadow = "0px 0px 2rem #00d9ff";
-    document.querySelector(".cardBlack5 h3").style.color = "#00d9ff";
+    document.querySelector(".cardBlack5 circle").style.fill = "#00d9ff";
+    document.querySelector(".cardBlack5 path").style.stroke = "#000";
 
-
+    document.querySelector(".cardBlack6 h3").style.color = "#00d9ff";
     document.querySelector(".cardBlack6").style.backgroundColor = "#000";
     document.querySelector(".cardBlack6").style.border = "3px solid #00d9ff";
     document.querySelector(".cardBlack6").style.boxShadow = "0px 0px 2rem #00d9ff";
-    document.querySelector(".cardBlack6 h3").style.color = "#00d9ff";
+    document.querySelector(".cardBlack6 circle").style.fill = "#00d9ff";
+    document.querySelector(".cardBlack6 path").style.stroke = "#000";
 
 
     document.querySelector(".button").style.backgroundColor = "#000";
@@ -184,40 +194,54 @@ ScrollReveal({
 
     document.querySelector("#services").style.backgroundColor = "#22B103";
    
+    document.querySelector(".cardBlackProducts h3").style.color = "#fff000";
     document.querySelector(".cardBlackProducts").style.backgroundColor = "#22B103";
     document.querySelector(".cardBlackProducts").style.border = "#22B103";
     document.querySelector(".cardBlackProducts").style.boxShadow = "0px 0px 3rem #003303";
-    document.querySelector(".cardBlackProducts h3").style.color = "#fff000";
+    document.querySelector(".cardBlackProducts circle").style.fill = "#2fff00";
+    document.querySelector(".cardBlackProducts path").style.stroke = "#003303";
 
+    document.querySelector(".cardBlack1 h3").style.color = "#003303";
     document.querySelector(".cardBlack1").style.backgroundColor = "#22B103";
     document.querySelector(".cardBlack1").style.border = "#22B103";
     document.querySelector(".cardBlack1").style.boxShadow = "0px 0px 3rem #003303";
-    document.querySelector(".cardBlack1 h3").style.color = "#003303";
+    document.querySelector(".cardBlack1 circle").style.fill = "#2fff00";
+    document.querySelector(".cardBlack1 path").style.stroke = "#003303";
 
+    document.querySelector(".cardBlack2 h3").style.color = "#003303";
     document.querySelector(".cardBlack2").style.backgroundColor = "#22B103";
     document.querySelector(".cardBlack2").style.border = "#22B103";
     document.querySelector(".cardBlack2").style.boxShadow = "0px 0px 3rem #003303";
-    document.querySelector(".cardBlack2 h3").style.color = "#003303";
-
+    document.querySelector(".cardBlack2 circle").style.fill = "#2fff00";
+    document.querySelector(".cardBlack2 path").style.stroke = "#003303";
+    
+    document.querySelector(".cardBlack3 h3").style.color = "#003303";
     document.querySelector(".cardBlack3").style.backgroundColor = "#22B103";
     document.querySelector(".cardBlack3").style.border = "#22B103";
     document.querySelector(".cardBlack3").style.boxShadow = "0px 0px 3rem #003303";
-    document.querySelector(".cardBlack3 h3").style.color = "#003303";
+    document.querySelector(".cardBlack3 circle").style.fill = "#2fff00";
+    document.querySelector(".cardBlack3 path").style.stroke = "#003303";
 
+    document.querySelector(".cardBlack4 h3").style.color = "#003303";
     document.querySelector(".cardBlack4").style.backgroundColor = "#22B103";
     document.querySelector(".cardBlack4").style.border = "#22B103";
     document.querySelector(".cardBlack4").style.boxShadow = "0px 0px 3rem #003303";
-    document.querySelector(".cardBlack4 h3").style.color = "#003303";
-
+    document.querySelector(".cardBlack4 circle").style.fill = "#2fff00";
+    document.querySelector(".cardBlack4 path").style.stroke = "#003303";
+    
+    document.querySelector(".cardBlack5 h3").style.color = "#003303";
     document.querySelector(".cardBlack5").style.backgroundColor = "#22B103";
     document.querySelector(".cardBlack5").style.border = "#22B103";
     document.querySelector(".cardBlack5").style.boxShadow = "0px 0px 3rem #003303";
-    document.querySelector(".cardBlack5 h3").style.color = "#003303";
+    document.querySelector(".cardBlack5 circle").style.fill = "#2fff00";
+    document.querySelector(".cardBlack5 path").style.stroke = "#003303";
 
+    document.querySelector(".cardBlack6 h3").style.color = "#003303";
     document.querySelector(".cardBlack6").style.backgroundColor = "#22B103";
     document.querySelector(".cardBlack6").style.border = "#22B103";
     document.querySelector(".cardBlack6").style.boxShadow = "0px 0px 3rem #003303";
-    document.querySelector(".cardBlack6 h3").style.color = "#003303";
+    document.querySelector(".cardBlack6 circle").style.fill = "#2fff00";
+    document.querySelector(".cardBlack6 path").style.stroke = "#003303";
 
     document.querySelector(".button").style.backgroundColor = "#228303";
     document.querySelector(".button").style.border = "#228303";
@@ -244,7 +268,7 @@ ScrollReveal({
 
     document.querySelector(".menu").style.backgroundColor = "#22B103";
     document.querySelector("#navigation").style.backgroundColor = "#228303";
-    document.querySelector("#footer").style.backgroundColor = "#228303";
+    document.querySelector("#footer").style.backgroundColor = "c";
   }
 
   document.getElementById("custom03ColorPalette").addEventListener("click", custom03ColorPalette)
@@ -291,41 +315,55 @@ ScrollReveal({
 
     document.querySelector("#services").style.backgroundColor = "#ff00ff";
 
+    document.querySelector(".cardBlackProducts h3").style.color = "yellow";
     document.querySelector(".cardBlackProducts").style.backgroundColor = "#ff00ff";
     document.querySelector(".cardBlackProducts").style.border = "1px solid #ff00ff";
     document.querySelector(".cardBlackProducts").style.boxShadow = "0px 0px 2rem #640064";
-    document.querySelector(".cardBlackProducts h3").style.color = "yellow";
-
+    document.querySelector(".cardBlackProducts circle").style.fill = "#fff";
+    document.querySelector(".cardBlackProducts path").style.stroke = "#ff00ff";
+    
+    document.querySelector(".cardBlack1 h3").style.color = "#640064";
     document.querySelector(".cardBlack1").style.backgroundColor = "#ff00ff";
     document.querySelector(".cardBlack1").style.border = "5px solid #c000c0";
     document.querySelector(".cardBlack1").style.boxShadow = "0px 0px 1rem #640064";
-    document.querySelector(".cardBlack1 h3").style.color = "#640064";
-
+    document.querySelector(".cardBlack1 circle").style.fill = "#fff";
+    document.querySelector(".cardBlack1 path").style.stroke = "#ff00ff";
+   
+    document.querySelector(".cardBlack2 h3").style.color = "#640064";
     document.querySelector(".cardBlack2").style.backgroundColor = "#ff00ff";
     document.querySelector(".cardBlack2").style.border = "5px solid #c000c0";
     document.querySelector(".cardBlack2").style.boxShadow = "0px 0px 1rem #640064";
-    document.querySelector(".cardBlack2 h3").style.color = "#640064";
-
+    document.querySelector(".cardBlack2 circle").style.fill = "#fff";
+    document.querySelector(".cardBlack2 path").style.stroke = "#ff00ff";
+   
+    document.querySelector(".cardBlack3 h3").style.color = "#640064";
     document.querySelector(".cardBlack3").style.backgroundColor = "#ff00ff";
     document.querySelector(".cardBlack3").style.border = "5px solid #c000c0";
     document.querySelector(".cardBlack3").style.boxShadow = "0px 0px 1rem #640064";
-    document.querySelector(".cardBlack3 h3").style.color = "#640064";
-
+    document.querySelector(".cardBlack3 circle").style.fill = "#fff";
+    document.querySelector(".cardBlack3 path").style.stroke = "#ff00ff";
+    
+    document.querySelector(".cardBlack4 h3").style.color = "#640064";
     document.querySelector(".cardBlack4").style.backgroundColor = "#ff00ff";
     document.querySelector(".cardBlack4").style.border = "5px solid #c000c0";
     document.querySelector(".cardBlack4").style.boxShadow = "0px 0px 1rem #640064";
-    document.querySelector(".cardBlack4 h3").style.color = "#640064";
-
+    document.querySelector(".cardBlack4 circle").style.fill = "#fff";
+    document.querySelector(".cardBlack4 path").style.stroke = "#ff00ff";
+    
+    document.querySelector(".cardBlack5 h3").style.color = "#640064";
     document.querySelector(".cardBlack5").style.backgroundColor = "#ff00ff";
     document.querySelector(".cardBlack5").style.border = "5px solid #c000c0";
     document.querySelector(".cardBlack5").style.boxShadow = "0px 0px 1rem #640064";
-    document.querySelector(".cardBlack5 h3").style.color = "#640064";
-
+    document.querySelector(".cardBlack5 circle").style.fill = "#fff";
+    document.querySelector(".cardBlack5 path").style.stroke = "#ff00ff";
+   
+    document.querySelector(".cardBlack6 h3").style.color = "#640064";
     document.querySelector(".cardBlack6").style.backgroundColor = "#ff00ff";
     document.querySelector(".cardBlack6").style.border = "5px solid #c000c0";
     document.querySelector(".cardBlack6").style.boxShadow = "0px 0px 1rem #640064";
-    document.querySelector(".cardBlack6 h3").style.color = "#640064";
-
+    document.querySelector(".cardBlack6 circle").style.fill = "#fff";
+    document.querySelector(".cardBlack6 path").style.stroke = "#ff00ff";
+    
     document.querySelector(".button").style.backgroundColor = "#ff00ff";
     document.querySelector(".button").style.borderColor = "#fff";
     document.querySelector(".button").style.color = "#fff";
@@ -391,41 +429,55 @@ ScrollReveal({
 
     document.querySelector("#services").style.backgroundColor = "#00f";
 
+    document.querySelector(".cardBlackProducts h3").style.color = "#fff000";
     document.querySelector(".cardBlackProducts").style.backgroundColor = "#00f";
     document.querySelector(".cardBlackProducts").style.border = "3px solid #00d9ff";
     document.querySelector(".cardBlackProducts").style.boxShadow = "0px 0px 3rem #00d9ff";
-    document.querySelector(".cardBlackProducts h3").style.color = "#00d9ff";
+    document.querySelector(".cardBlackProducts circle").style.fill = "#1f54ff";
+    document.querySelector(".cardBlackProducts path").style.stroke = "#fff";
 
+    document.querySelector(".cardBlack1 h3").style.color = "#00d9ff";
     document.querySelector(".cardBlack1").style.backgroundColor = "#00f";
     document.querySelector(".cardBlack1").style.border = "3px solid #00d9ff";
     document.querySelector(".cardBlack1").style.boxShadow = "0px 0px 3rem #00d9ff";
-    document.querySelector(".cardBlack1 h3").style.color = "#00d9ff";
-
+    document.querySelector(".cardBlack1 circle").style.fill = "#1f54ff";
+    document.querySelector(".cardBlack1 path").style.stroke = "#fff";
+  
+    document.querySelector(".cardBlack2 h3").style.color = "#00d9ff";
     document.querySelector(".cardBlack2").style.backgroundColor = "#00f";
     document.querySelector(".cardBlack2").style.border = "3px solid #00d9ff";
     document.querySelector(".cardBlack2").style.boxShadow = "0px 0px 3rem #00d9ff";
-    document.querySelector(".cardBlack2 h3").style.color = "#00d9ff";
-
+    document.querySelector(".cardBlack2 circle").style.fill = "#1f54ff";
+    document.querySelector(".cardBlack2 path").style.stroke = "#fff";
+    
+    document.querySelector(".cardBlack3 h3").style.color = "#00d9ff";
     document.querySelector(".cardBlack3").style.backgroundColor = "#00f";
     document.querySelector(".cardBlack3").style.border = "3px solid #00d9ff";
     document.querySelector(".cardBlack3").style.boxShadow = "0px 0px 3rem #00d9ff";
-    document.querySelector(".cardBlack3 h3").style.color = "#00d9ff";
-
+    document.querySelector(".cardBlack3 circle").style.fill = "#1f54ff";
+    document.querySelector(".cardBlack3 path").style.stroke = "#fff";
+    
+    document.querySelector(".cardBlack4 h3").style.color = "#00d9ff";
     document.querySelector(".cardBlack4").style.backgroundColor = "#00f";
     document.querySelector(".cardBlack4").style.border = "3px solid #00d9ff";
     document.querySelector(".cardBlack4").style.boxShadow = "0px 0px 3rem #00d9ff";
-    document.querySelector(".cardBlack4 h3").style.color = "#00d9ff";
+    document.querySelector(".cardBlack4 circle").style.fill = "#1f54ff";
+    document.querySelector(".cardBlack4 path").style.stroke = "#fff";
 
+    document.querySelector(".cardBlack5 h3").style.color = "#00d9ff";
     document.querySelector(".cardBlack5").style.backgroundColor = "#00f";
     document.querySelector(".cardBlack5").style.border = "3px solid #00d9ff";
     document.querySelector(".cardBlack5").style.boxShadow = "0px 0px 3rem #00d9ff";
-    document.querySelector(".cardBlack5 h3").style.color = "#00d9ff";
-
+    document.querySelector(".cardBlack5 circle").style.fill = "#1f54ff";
+    document.querySelector(".cardBlack5 path").style.stroke = "#fff";
+    
+    document.querySelector(".cardBlack6 h3").style.color = "#00d9ff";
     document.querySelector(".cardBlack6").style.backgroundColor = "#00f";
     document.querySelector(".cardBlack6").style.border = "3px solid #00d9ff";
     document.querySelector(".cardBlack6").style.boxShadow = "0px 0px 3rem #00d9ff";
-    document.querySelector(".cardBlack6 h3").style.color = "#00d9ff";
-
+    document.querySelector(".cardBlack6 circle").style.fill = "#1f54ff";
+    document.querySelector(".cardBlack6 path").style.stroke = "#fff";
+    
     document.querySelector(".button").style.backgroundColor = "#00f";
     document.querySelector(".button").style.borderColor = "#00f";
     document.querySelector(".button").style.boxShadow = "0px 0px 2rem #000";
