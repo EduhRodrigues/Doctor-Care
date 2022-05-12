@@ -268,7 +268,7 @@ ScrollReveal({
 
     document.querySelector(".menu").style.backgroundColor = "#22B103";
     document.querySelector("#navigation").style.backgroundColor = "#228303";
-    document.querySelector("#footer").style.backgroundColor = "c";
+    document.querySelector("#footer").style.backgroundColor = "#228303";
   }
 
   document.getElementById("custom03ColorPalette").addEventListener("click", custom03ColorPalette)
