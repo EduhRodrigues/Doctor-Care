@@ -478,7 +478,7 @@ span {
 }
 
 #contact .content svg path {
-  stroke: var(--primary-color);
+  stroke: #fff;
 }
 
 /*==================== FOOTER ====================*/
