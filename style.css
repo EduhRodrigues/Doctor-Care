@@ -506,6 +506,14 @@ footer p {
   transition: 1s;
 }
 
+#backToTopButton svg circle {
+  fill: #8beeff;
+}
+
+#backToTopButton svg path {
+  stroke: #0004ff;
+}
+
 #backToTopButton.show {
   opacity: 1;
   visibility: visible;
