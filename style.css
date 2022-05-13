@@ -537,7 +537,7 @@ footer p {
     background: var(--defaultColorPalette);
     cursor: pointer;
     border-radius: 1rem;
-    border: 1px solid white;
+    border: 2.3px solid white;
   }
 
   div #custom01ColorPalette {
@@ -546,7 +546,7 @@ footer p {
     background: var(--custom01ColorPalette);
     cursor: pointer;
     border-radius: 1rem;
-    border: 1px solid white;
+    border: 2.3px solid white;
   }
 
   div #custom02ColorPalette {
@@ -555,7 +555,7 @@ footer p {
     background: var(--custom02ColorPalette);
     cursor: pointer;
     border-radius: 1rem;
-    border: 1px solid white;
+    border: 2.3px solid white;
   }
 
   div #custom03ColorPalette {
@@ -564,7 +564,7 @@ footer p {
     background: var(--custom03ColorPalette);
     cursor: pointer;
     border-radius: 1rem;
-    border: 1px solid white;
+    border: 2.3px solid white;
   }
 
   div #custom04ColorPalette {
@@ -573,5 +573,5 @@ footer p {
     background: var(--custom04ColorPalette);
     cursor: pointer;
     border-radius: 1rem;
-    border: 1px solid white;
+    border: 2.3px solid white;
   }

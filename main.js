@@ -145,10 +145,9 @@ ScrollReveal({
     document.querySelector(".cardBlack6 .playgroundSpan").style.color = "#00d9ff";
     document.querySelector(".cardBlack6 .socializationSpan").style.color = "#00d9ff";
 
-
     document.querySelector(".button").style.backgroundColor = "#000";
     document.querySelector(".button").style.borderColor = "#fff";
-    document.querySelector(".button").style.color = "green";
+    document.querySelector(".button").style.color = "#fff";
 
     document.querySelector("section .button").style.backgroundColor = "#000";
     document.querySelector("section .button").style.borderColor = "#00d9ff";
@@ -278,7 +277,6 @@ ScrollReveal({
     document.querySelector(".cardBlack6 .playgroundSpan").style.color = "#2fff00";
     document.querySelector(".cardBlack6 .socializationSpan").style.color = "#2fff00";
   
-
     document.querySelector(".button").style.backgroundColor = "#228303";
     document.querySelector(".button").style.border = "#228303";
     document.querySelector(".button").style.color = "#fff";
