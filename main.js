@@ -146,7 +146,7 @@ ScrollReveal({
     document.querySelector(".cardBlack6 .socializationSpan").style.color = "#00d9ff";
 
     document.querySelector(".button").style.backgroundColor = "#000";
-    document.querySelector(".button").style.borderColor = "#fff";
+    document.querySelector(".button").style.border = "5px solid #fff";
     document.querySelector(".button").style.color = "#fff";
 
     document.querySelector("section .button").style.backgroundColor = "#000";
