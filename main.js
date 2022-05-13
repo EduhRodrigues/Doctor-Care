@@ -173,7 +173,10 @@ ScrollReveal({
     document.querySelector(".menu").style.backgroundColor = "#000";
     document.querySelector("#navigation").style.backgroundColor = "#000";
     document.querySelector("#footer").style.backgroundColor = "#000";
-  
+
+    document.querySelector("#backToTopButton circle").style.fill = "#004e61";
+    document.querySelector("#backToTopButton .path1").style.stroke = "#000";
+    document.querySelector("#backToTopButton .path2").style.stroke = "#000";
   }
 
   document.getElementById("custom02ColorPalette").addEventListener("click", custom02ColorPalette)
@@ -302,6 +305,10 @@ ScrollReveal({
     document.querySelector(".menu").style.backgroundColor = "#22B103";
     document.querySelector("#navigation").style.backgroundColor = "#228303";
     document.querySelector("#footer").style.backgroundColor = "#228303";
+
+    document.querySelector("#backToTopButton circle").style.fill = "#22ce00";
+    document.querySelector("#backToTopButton .path1").style.stroke = "#1c7200";
+    document.querySelector("#backToTopButton .path2").style.stroke = "#1c7200";
   }
 
   document.getElementById("custom03ColorPalette").addEventListener("click", custom03ColorPalette)
@@ -441,6 +448,9 @@ ScrollReveal({
     document.querySelector("#navigation").style.backgroundColor = "#c000c0";
     document.querySelector("#footer").style.backgroundColor = "#c000c0";
 
+    document.querySelector("#backToTopButton circle").style.fill = "#df00df";
+    document.querySelector("#backToTopButton .path1").style.stroke = "#fff";
+    document.querySelector("#backToTopButton .path2").style.stroke = "#fff";
   }
 
   document.getElementById("defaultColorPalette").addEventListener("click", defaultColorPalette);
@@ -570,4 +580,8 @@ ScrollReveal({
     document.querySelector(".menu").style.backgroundColor = "#00f";
     document.querySelector("#navigation").style.backgroundColor = "#1f54ff";
     document.querySelector("#footer").style.backgroundColor = "#1f54ff";
+
+    document.querySelector("#backToTopButton circle").style.fill = "#00d9ff";
+    document.querySelector("#backToTopButton .path1").style.stroke = "#00f";
+    document.querySelector("#backToTopButton .path2").style.stroke = "#00f";
   }
