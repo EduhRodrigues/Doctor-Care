@@ -80,15 +80,11 @@ ScrollReveal({
 
     document.querySelector("#services").style.backgroundColor = "#000";
 
-    var botIframeBgColor = document.head.appendChild(document.createElement("style"));
+    /*var botIframeBgColor = document.head.appendChild(document.createElement("style"));
     botIframeBgColor.innerHTML = ".botIframeBorderCover:after {background: #000;}";
     var botIframeColor = document.head.appendChild(document.createElement("style"));
-    botIframeColor.innerHTML = ".botIframeBorderCover:after {color: #00d9ff;}";
+    botIframeColor.innerHTML = ".botIframeBorderCover:after {color: #00d9ff;}";*/
 
-    document.querySelector(".botIframeBorderCover").style.backgroundColor = "#000";
-    
-    document.querySelector(".botIframe").style.backgroundColor = "#000";
-   
     document.querySelector(".cardBlackProducts").style.backgroundColor = "#000";
     document.querySelector(".cardBlackProducts").style.border = "3px solid #00d9ff";
     document.querySelector(".cardBlackProducts").style.boxShadow = "0px 0px 3rem c";

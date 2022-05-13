@@ -429,24 +429,6 @@ header .space {
   overflow: hidden;
 }
 
-.botIframeBorderCover:after {
-  content: 'Envie a palavra "Iniciar" para ver as opções disponíveis.';
-  font-weight: bold;
-  color: #fff;
-  font-size: 2.05rem;
-  position: absolute;
-  display: flex;
-  background: #0000ff;
-  width: 86%;
-  line-height: 4rem;
-  height: 12.3rem;
-  margin-inline: auto;
-  top: 1rem;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
 div.embedded {
   position: relative;
   display: flex;
