@@ -79,6 +79,15 @@ ScrollReveal({
     document.querySelector("#stats").style.boxShadow = "0px 0px 3rem #00d9ff";
 
     document.querySelector("#services").style.backgroundColor = "#000";
+
+    var botIframeBgColor = document.head.appendChild(document.createElement("style"));
+    botIframeBgColor.innerHTML = ".botIframeBorderCover:after {background: #000;}";
+    var botIframeColor = document.head.appendChild(document.createElement("style"));
+    botIframeColor.innerHTML = ".botIframeBorderCover:after {color: #00d9ff;}";
+
+    document.querySelector(".botIframeBorderCover").style.backgroundColor = "#000";
+    
+    document.querySelector(".botIframe").style.backgroundColor = "#000";
    
     document.querySelector(".cardBlackProducts").style.backgroundColor = "#000";
     document.querySelector(".cardBlackProducts").style.border = "3px solid #00d9ff";
@@ -213,6 +222,13 @@ ScrollReveal({
     document.querySelector("#stats").style.boxShadow = "0px 0px 3rem #003303";
 
     document.querySelector("#services").style.backgroundColor = "#22B103";
+
+    var styleElem = document.head.appendChild(document.createElement("style"));
+    styleElem.innerHTML = ".botIframeBorderCover:after {background: #22b103;}";
+
+    document.querySelector(".botIframeBorderCover").style.backgroundColor = "#22b103";
+    document.querySelector(".botIframe").style.backgroundColor = "#22b103";
+
    
     document.querySelector(".cardBlackProducts h3").style.color = "#fff000";
     document.querySelector(".cardBlackProducts").style.backgroundColor = "#22B103";
@@ -357,6 +373,13 @@ ScrollReveal({
 
     document.querySelector("#services").style.backgroundColor = "#ff00ff";
 
+    var styleElem = document.head.appendChild(document.createElement("style"));
+    styleElem.innerHTML = ".botIframeBorderCover:after {background: #ff00ff;}";
+
+    document.querySelector(".botIframeBorderCover").style.backgroundColor = "#ff00ff";
+    document.querySelector(".botIframe").style.backgroundColor = "#ff00ff";
+   
+   
     document.querySelector(".cardBlackProducts h3").style.color = "yellow";
     document.querySelector(".cardBlackProducts").style.backgroundColor = "#ff00ff";
     document.querySelector(".cardBlackProducts").style.border = "1px solid #ff00ff";
@@ -490,6 +513,12 @@ ScrollReveal({
     document.querySelector("#stats").style.boxShadow = "0px 0px 3rem #00d9ff";
 
     document.querySelector("#services").style.backgroundColor = "#00f";
+
+    var styleElem = document.head.appendChild(document.createElement("style"));
+    styleElem.innerHTML = ".botIframeBorderCover:after {background: #00f;}";
+
+    document.querySelector(".botIframeBorderCover").style.backgroundColor = "#00f";
+    document.querySelector(".botIframe").style.backgroundColor = "#00f";
 
     document.querySelector(".cardBlackProducts h3").style.color = "#fff000";
     document.querySelector(".cardBlackProducts").style.backgroundColor = "#00f";

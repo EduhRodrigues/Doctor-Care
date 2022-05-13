@@ -407,10 +407,11 @@ body.menu-expanded button path {
 
 .botIframeBorderCover {
   display: inline-block;
-  width: 29rem;
-  height: 49.9rem;
+  width: 28rem;
+  height: 60rem;
   overflow: hidden;
 }
+
 .botIframeBorderCover:after {
   content: 'Envie a palavra "Iniciar" para ver as opções disponíveis.';
   font-weight: bold;
