@@ -390,7 +390,24 @@ body.menu-expanded button path {
   border: 3px solid var(--primary-color);
   box-shadow: 0px 0px 2rem var(--primary-color);
   border-radius: .7rem;
+}
 
+.carde {
+  display: inline-block;
+  overflow: hidden;
+  padding: 0rem;
+  margin-top: -4rem;
+  height: 59.8rem;
+  border-radius: .6rem;
+  border: 3px solid red;
+  text-align: left;
+  background: var(--down-bg-color);
+  border: 3px solid var(--primary-color);
+  box-shadow: 0px 0px 2rem var(--primary-color);
+}
+
+header .space {
+  margin-top: 5rem;
 }
 
 #services .card h3 {
