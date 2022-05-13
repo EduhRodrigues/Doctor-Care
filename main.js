@@ -150,7 +150,7 @@ ScrollReveal({
     document.querySelector(".button").style.color = "#fff";
 
     document.querySelector("section .button").style.backgroundColor = "#000";
-    document.querySelector("section .button").style.borderColor = "#00d9ff";
+    document.querySelector("section .button").style.border = "5px solid #00d9ff";
     document.querySelector("section .button").style.boxShadow = "0px 0px 2rem #00d9ff";
     document.querySelector("section .button").style.color = "#fff";
 
@@ -170,6 +170,8 @@ ScrollReveal({
     document.querySelector("#about h2").style.color = "#00d9ff";
 
     document.querySelector(".menu").style.backgroundColor = "#000";
+    document.querySelector("#closeMenuColor").style.stroke = "#00d9ff";
+
     document.querySelector("#navigation").style.backgroundColor = "#000";
     document.querySelector("#footer").style.backgroundColor = "#000";
 
@@ -301,6 +303,8 @@ ScrollReveal({
     document.querySelector("#about h2").style.color = "yellow";
 
     document.querySelector(".menu").style.backgroundColor = "#22B103";
+    document.querySelector("#closeMenuColor").style.stroke = "#1c7200";
+
     document.querySelector("#navigation").style.backgroundColor = "#228303";
     document.querySelector("#footer").style.backgroundColor = "#228303";
 
@@ -418,7 +422,7 @@ ScrollReveal({
     document.querySelector(".cardBlack6 .playgroundSpan").style.color = "#640064";
     document.querySelector(".cardBlack6 .socializationSpan").style.color = "#640064";
     
-    document.querySelector(".button").style.backgroundColor = "#ff00ff";
+    document.querySelector(".button").style.backgroundColor = "#c000c0";
     document.querySelector(".button").style.borderColor = "#fff";
     document.querySelector(".button").style.color = "#fff";
 
@@ -442,6 +446,7 @@ ScrollReveal({
     document.querySelector("#about h2").style.color = "#640064";
 
     document.querySelector(".menu").style.backgroundColor = "#ff00ff";
+    document.querySelector("#closeMenuColor").style.stroke = "#c000c0";
     
     document.querySelector("#navigation").style.backgroundColor = "#c000c0";
     document.querySelector("#footer").style.backgroundColor = "#c000c0";
@@ -576,6 +581,8 @@ ScrollReveal({
     document.querySelector("#about h2").style.color = "#00d9ff";
 
     document.querySelector(".menu").style.backgroundColor = "#00f";
+    document.querySelector("#closeMenuColor").style.stroke = "#00d9ff";
+
     document.querySelector("#navigation").style.backgroundColor = "#1f54ff";
     document.querySelector("#footer").style.backgroundColor = "#1f54ff";
 

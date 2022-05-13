@@ -208,7 +208,7 @@ body.menu-expanded .menu {
   height: 100%;
   padding-top: var(--nav-height);
   transition: transform 800ms ease-out;
-  transform: translateY(0);
+  transform: scale(1);
 }
 
 .menu ul:nth-child(1) {
@@ -227,7 +227,7 @@ body.menu-expanded .menu {
 }
 
 .menu ul li a:hover {
-  color: var(--down-bg-color);
+  color: rgb(255, 251, 0);
   transition: .6s ease-in;
 }
 
@@ -248,11 +248,10 @@ body.menu-expanded .menu {
   transition: all 0.3s ease 0s;
 }
 
-
 .menu .button:hover {
   transition: .4s ease-in-out;
   box-shadow: 0px 2.5px 2rem var(--paragraph);
-  transform: translateY(-7px);
+  transform: scale(1.1);
 }
 
 .social-links {
