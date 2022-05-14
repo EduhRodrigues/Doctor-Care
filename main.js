@@ -43,8 +43,8 @@ ScrollReveal({
   #contact a
   `)
 
-  document.getElementById("custom01ColorPalette").addEventListener("click", custom01ColorPalette)
-  function custom01ColorPalette () {
+  document.getElementById("custom01ColorPalette").addEventListener("click", addDarkShineSkyThemeFunction)
+  function addDarkShineSkyThemeFunction () {
     alert(`Prepare-se para uma nova experiência!
 
     Esta página receberá a paleta de cores: 
@@ -182,8 +182,8 @@ ScrollReveal({
     document.querySelector("#backToTopButton .path2").style.stroke = "#000";
   }
 
-  document.getElementById("custom02ColorPalette").addEventListener("click", custom02ColorPalette)
-  function custom02ColorPalette () {
+  document.getElementById("custom02ColorPalette").addEventListener("click", addAmazonBreatheThemeFunction)
+  function addAmazonBreatheThemeFunction () {
     alert(`Prepare-se para uma nova experiência!
 
     Esta página receberá a paleta de cores: 
@@ -327,12 +327,12 @@ ScrollReveal({
 
     Esta página receberá a paleta de cores: 
     
-    Grey Good Feeling by Eduh™`)
+    Definida pelo usuário. Em breve!`)
   }
 
-  document.getElementById("custom04ColorPalette").addEventListener("click", custom04ColorPalette)
+  document.getElementById("custom04ColorPalette").addEventListener("click", addHelloPinkLolThemeFunction)
  
-  function custom04ColorPalette () {
+  function addHelloPinkLolThemeFunction () {
     alert(`Prepare-se para uma nova experiência!
 
     Esta página receberá a paleta de cores: 
@@ -470,9 +470,9 @@ ScrollReveal({
     document.querySelector("#backToTopButton .path2").style.stroke = "#fff";
   }
 
-  document.getElementById("defaultColorPalette").addEventListener("click", defaultColorPalette);
+  document.getElementById("defaultColorPalette").addEventListener("click", addBlueAliveDayThemeFunction);
  
-  function defaultColorPalette () {
+  function addBlueAliveDayThemeFunction () {
     alert(`Prepare-se para uma nova experiência!
 
     Esta página receberá a paleta de cores: 
