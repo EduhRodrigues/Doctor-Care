@@ -433,7 +433,12 @@ body.menu-expanded button path {
   overflow: hidden;
 }
 
-
+.botIframeBorderCover {
+  display: inline-block;
+  width: 28rem;
+  height: 40rem;
+  overflow: hidden;
+}
 
 div.embedded {
   position: relative;

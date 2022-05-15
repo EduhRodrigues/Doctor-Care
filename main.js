@@ -52,22 +52,22 @@ ScrollReveal({
     
     Dark Shine Sky by Eduh™`)
 
-    window.addEventListener("scroll", AmazonBreatheThemeonScroll)
-    navigation.classList.add('scrollDarkShineSkyTheme');
+    window.addEventListener("scroll", darkShineSkyThemeOnScroll)
+   
         document.querySelector(".openMenuColor1").style.stroke = "#fff";
         document.querySelector(".openMenuColor2").style.stroke = "#fff";
         document.querySelector(".openMenuColor3").style.stroke = "#fff";
         document.querySelector("#navigation").style.backgroundColor = "#272727";
 
-      function AmazonBreatheThemeonScroll () {
+      function darkShineSkyThemeOnScroll () {
       if (scrollY > 0) {
-        navigation.classList.add('scrollDarkShineSkyTheme');
+    
         document.querySelector(".openMenuColor1").style.stroke = "#fff";
         document.querySelector(".openMenuColor2").style.stroke = "#fff";
         document.querySelector(".openMenuColor3").style.stroke = "#fff";
         document.querySelector("#navigation").style.backgroundColor = "#272727";
       } else {
-        navigation.classList.remove('scrollAmazonBreatheTheme');
+       
         document.querySelector(".openMenuColor1").style.stroke = "#00d9ff";
         document.querySelector(".openMenuColor2").style.stroke = "#00d9ff";
         document.querySelector(".openMenuColor3").style.stroke = "#00d9ff";
@@ -97,7 +97,7 @@ ScrollReveal({
 
     document.querySelector("#stats").style.backgroundColor = "#000";
     document.querySelector("#stats").style.border = "#00d9ff";
-    document.querySelector("#stats").style.boxShadow = "0px 0px 3rem c";
+    document.querySelector("#stats").style.boxShadow = "0px 0px 3rem #00d9ff";
 
     document.querySelector("#services").style.backgroundColor = "#000";
 
@@ -211,14 +211,14 @@ ScrollReveal({
     
     Amazon Breathe by Eduh™`)
 
-    window.addEventListener("scroll", AmazonBreatheThemeonScroll)
+    window.addEventListener("scroll", AmazonBreatheThemeOnScroll)
     navigation.classList.add('scrollAmazonBreatheTheme');
         document.querySelector(".openMenuColor1").style.stroke = "#22ce00";
         document.querySelector(".openMenuColor2").style.stroke = "#22ce00";
         document.querySelector(".openMenuColor3").style.stroke = "#22ce00";
         document.querySelector("#navigation").style.backgroundColor = "#228303";
 
-      function AmazonBreatheThemeonScroll () {
+      function AmazonBreatheThemeOnScroll () {
       if (scrollY > 0) {
         navigation.classList.add('scrollAmazonBreatheTheme');
         document.querySelector(".openMenuColor1").style.stroke = "#22ce00";
@@ -406,6 +406,7 @@ ScrollReveal({
     document.querySelector(".aqui2").style.color = "#640064";
 
     document.querySelector("h1").style.color = "#640064";
+    document.querySelector("h2").style.color = "#640064";
     document.querySelector("#h2autoServiceColor").style.color = "#640064";
     document.querySelector("h4").style.color = "#fff";
     document.querySelector("p").style.color = "#fff";
@@ -566,8 +567,8 @@ ScrollReveal({
     document.querySelector(".aqui2").style.color = "#00d9ff";
 
     document.querySelector("h1").style.color = "#00d9ff";
-    document.querySelector("#h2autoServiceColor").style.color = "#00d9ff";
     document.querySelector("h2").style.color = "#00d9ff";
+    document.querySelector("#h2autoServiceColor").style.color = "#00d9ff";
     document.querySelector("h4").style.color = "#fff";
     document.querySelector("p").style.color = "#fff";
 
