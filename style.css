@@ -167,35 +167,6 @@ nav.scrollDefaultTheme button path {
   transition: .3s ease-in-out;
 }
 
-nav.scrollDarkShineSkyTheme {
-  background: #000000;
-  transition: .3s ease-in-out;
-}
-
-nav.scrollDarkShineSkyTheme button path {
-  stroke: #fff;
-  transition: .3s ease-in-out;
-}
-
-nav.scrollAmazonBreatheTheme {
-  background: #228303;
-  transition: .3s ease-in-out;
-}
-
-nav.scrollAmazonBreatheTheme button path {
-  stroke: #22ce00;
-  transition: .3s ease-in-out;
-}
-
-nav.scrollHelloPinkLolTheme {
-  background: #c000c0;
-  transition: .3s ease-in-out;
-}
-
-nav.scrollHelloPinkLolTheme button path {
-  stroke: #ff0000;
-  transition: .3s ease-in-out;
-}
 
 nav button {
   background: none;
@@ -608,15 +579,6 @@ footer p {
     min-width: 2rem;
     min-height: 2rem;
     background: var(--custom02ColorPalette);
-    cursor: pointer;
-    border-radius: 1rem;
-    border: 2.3px solid white;
-  }
-
-  div #custom03ColorPalette {
-    min-width: 2rem;
-    min-height: 2rem;
-    background: var(--custom03ColorPalette);
     cursor: pointer;
     border-radius: 1rem;
     border: 2.3px solid white;

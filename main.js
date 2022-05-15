@@ -212,7 +212,6 @@ ScrollReveal({
     Amazon Breathe by Eduh™`)
 
     window.addEventListener("scroll", AmazonBreatheThemeOnScroll)
-    navigation.classList.add('scrollAmazonBreatheTheme');
         document.querySelector(".openMenuColor1").style.stroke = "#22ce00";
         document.querySelector(".openMenuColor2").style.stroke = "#22ce00";
         document.querySelector(".openMenuColor3").style.stroke = "#22ce00";
@@ -220,13 +219,11 @@ ScrollReveal({
 
       function AmazonBreatheThemeOnScroll () {
       if (scrollY > 0) {
-        navigation.classList.add('scrollAmazonBreatheTheme');
         document.querySelector(".openMenuColor1").style.stroke = "#22ce00";
         document.querySelector(".openMenuColor2").style.stroke = "#22ce00";
         document.querySelector(".openMenuColor3").style.stroke = "#22ce00";
         document.querySelector("#navigation").style.backgroundColor = "#228303";
       } else {
-        navigation.classList.remove('scrollAmazonBreatheTheme');
         document.querySelector(".openMenuColor1").style.stroke = "#004203";
         document.querySelector(".openMenuColor2").style.stroke = "#004203";
         document.querySelector(".openMenuColor3").style.stroke = "#004203";
@@ -360,15 +357,6 @@ ScrollReveal({
     document.querySelector("#footer").style.backgroundColor = "#228303";
   }
 
-  document.getElementById("custom03ColorPalette").addEventListener("click", custom03ColorPalette)
-  function custom03ColorPalette () {
-   alert(`Prepare-se para uma nova experiência!
-
-    Esta página receberá a paleta de cores: 
-    
-    Definida pelo usuário. Em breve!`)
-  }
-
   document.getElementById("custom04ColorPalette").addEventListener("click", addHelloPinkLolThemeFunction)
  
   function addHelloPinkLolThemeFunction () {
@@ -379,7 +367,6 @@ ScrollReveal({
     Hello Pink lol by Eduh™`)
 
     window.addEventListener("scroll", HelloPinkLolThemeOnScroll)
-     navigation.classList.add('scrollHelloPinkLolTheme');
         document.querySelector(".openMenuColor1").style.stroke = "#fff";
         document.querySelector(".openMenuColor2").style.stroke = "#fff";
         document.querySelector(".openMenuColor3").style.stroke = "#fff";
@@ -387,13 +374,11 @@ ScrollReveal({
 
       function HelloPinkLolThemeOnScroll () {
       if (scrollY > 0) {
-        navigation.classList.add('scrollHelloPinkLolTheme');
         document.querySelector(".openMenuColor1").style.stroke = "#fff";
         document.querySelector(".openMenuColor2").style.stroke = "#fff";
         document.querySelector(".openMenuColor3").style.stroke = "#fff";
         document.querySelector("#navigation").style.backgroundColor = "#c000c0";
       } else {
-        navigation.classList.remove('scrollAmazonBreatheTheme');
         document.querySelector(".openMenuColor1").style.stroke = "#640064";
         document.querySelector(".openMenuColor2").style.stroke = "#640064";
         document.querySelector(".openMenuColor3").style.stroke = "#640064";
@@ -537,7 +522,6 @@ ScrollReveal({
     Blue Alive Day by Eduh™`)
 
     window.addEventListener("scroll", BlueAliveDayThemeOnScroll)
-    navigation.classList.add('scrollHelloPinkLolTheme');
     document.querySelector(".openMenuColor1").style.stroke = "#fff";
     document.querySelector(".openMenuColor2").style.stroke = "#fff";
     document.querySelector(".openMenuColor3").style.stroke = "#fff";
@@ -546,14 +530,12 @@ ScrollReveal({
       function BlueAliveDayThemeOnScroll () {
       
       if (scrollY > 0) {
-        navigation.classList.add('scrollHelloPinkLolTheme');
         document.querySelector(".openMenuColor1").style.stroke = "#fff";
         document.querySelector(".openMenuColor2").style.stroke = "#fff";
         document.querySelector(".openMenuColor3").style.stroke = "#fff";
         document.querySelector("#navigation").style.backgroundColor = "#1f54ff";
         
       } else {
-        navigation.classList.remove('scrollAmazonBreatheTheme');
         document.querySelector(".openMenuColor1").style.stroke = "#00d9ff";
         document.querySelector(".openMenuColor2").style.stroke = "#00d9ff";
         document.querySelector(".openMenuColor3").style.stroke = "#00d9ff";
