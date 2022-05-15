@@ -52,13 +52,22 @@ ScrollReveal({
     
     Dark Shine Sky by Eduh™`)
 
-    window.addEventListener("scroll", DarkShineSkyThemeonScroll)
-      function DarkShineSkyThemeonScroll () {
+    window.addEventListener("scroll", AmazonBreatheThemeonScroll)
+    document.querySelector("#navigation").style.backgroundColor = "#000";
+      function AmazonBreatheThemeonScroll () {
       if (scrollY > 0) {
         navigation.classList.add('scrollDarkShineSkyTheme');
+        document.querySelector(".openMenuColor1").style.stroke = "#fff";
+        document.querySelector(".openMenuColor2").style.stroke = "#fff";
+        document.querySelector(".openMenuColor3").style.stroke = "#fff";
+        document.querySelector("#navigation").style.backgroundColor = "#272727";
         
       } else {
-        navigation.classList.remove('scrollDarkShineSkyTheme');
+        navigation.classList.remove('scrollAmazonBreatheTheme');
+        document.querySelector(".openMenuColor1").style.stroke = "#00d9ff";
+        document.querySelector(".openMenuColor2").style.stroke = "#00d9ff";
+        document.querySelector(".openMenuColor3").style.stroke = "#00d9ff";
+        document.querySelector("#navigation").style.backgroundColor = "#000";
       }}
 
     document.getElementById('iframeProducts').src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQoHx1_iniuYaD89UITs6JglwISLg8OxpZoEYYDDVBMxYITsCMOsEyJ5ALC-9l6BO2z1uLnMa227a-R/pubhtml?gid=1476416633&amp;single=true&amp;widget=true&amp;headers=false";
@@ -183,16 +192,13 @@ ScrollReveal({
 
     document.querySelector(".menu").style.backgroundColor = "#000";
 
-    
-    
     document.querySelector("#closeMenuColor").style.stroke = "#00d9ff";
-
-    document.querySelector("#navigation").style.backgroundColor = "#000";
-    document.querySelector("#footer").style.backgroundColor = "#000";
 
     document.querySelector("#backToTopButton circle").style.fill = "#004e61";
     document.querySelector("#backToTopButton .path1").style.stroke = "#000";
     document.querySelector("#backToTopButton .path2").style.stroke = "#000";
+
+    document.querySelector("#footer").style.backgroundColor = "#272727";
   }
 
   document.getElementById("custom02ColorPalette").addEventListener("click", addAmazonBreatheThemeFunction)
@@ -203,7 +209,6 @@ ScrollReveal({
     
     Amazon Breathe by Eduh™`)
 
-
     window.addEventListener("scroll", AmazonBreatheThemeonScroll)
       function AmazonBreatheThemeonScroll () {
       
@@ -212,12 +217,14 @@ ScrollReveal({
         document.querySelector(".openMenuColor1").style.stroke = "#22ce00";
         document.querySelector(".openMenuColor2").style.stroke = "#22ce00";
         document.querySelector(".openMenuColor3").style.stroke = "#22ce00";
+        document.querySelector("#navigation").style.backgroundColor = "#228303";
         
       } else {
         navigation.classList.remove('scrollAmazonBreatheTheme');
-        document.querySelector(".openMenuColor1").style.stroke = "#228303";
-        document.querySelector(".openMenuColor2").style.stroke = "#228303";
-        document.querySelector(".openMenuColor3").style.stroke = "#228303";
+        document.querySelector(".openMenuColor1").style.stroke = "#004203";
+        document.querySelector(".openMenuColor2").style.stroke = "#004203";
+        document.querySelector(".openMenuColor3").style.stroke = "#004203";
+        document.querySelector("#navigation").style.backgroundColor = "#22B103";
       }}
 
     document.getElementById('iframeProducts').src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQTZpnLzMpDCScHrUr31gtuKTYW2AtouDVTFD0zFcf5fMLjSyT0OcZ-9fyEOf-ZQk8qb5Sr9rTfpT6/pubhtml?gid=1476416633&amp;single=true&amp;widget=true&amp;headers=false";
@@ -344,8 +351,8 @@ ScrollReveal({
     document.querySelector("#closeMenuColor").style.stroke = "#1c7200";
 
     document.querySelector("#backToTopButton circle").style.fill = "#22ce00";
-    document.querySelector("#backToTopButton .path1").style.stroke = "#1c7200";
-    document.querySelector("#backToTopButton .path2").style.stroke = "#1c7200";
+    document.querySelector("#backToTopButton .path1").style.stroke = "#228303";
+    document.querySelector("#backToTopButton .path2").style.stroke = "#228303";
 
     document.querySelector("#footer").style.backgroundColor = "#228303";
   }
@@ -367,6 +374,25 @@ ScrollReveal({
     Esta página receberá a paleta de cores: 
     
     Hello Pink lol by Eduh™`)
+
+    window.addEventListener("scroll", HelloPinkLolThemeOnScroll)
+    document.querySelector("#navigation").style.backgroundColor = "#c000c0";
+      function HelloPinkLolThemeOnScroll () {
+      
+      if (scrollY > 0) {
+        navigation.classList.add('scrollHelloPinkLolTheme');
+        document.querySelector(".openMenuColor1").style.stroke = "#fff";
+        document.querySelector(".openMenuColor2").style.stroke = "#fff";
+        document.querySelector(".openMenuColor3").style.stroke = "#fff";
+        document.querySelector("#navigation").style.backgroundColor = "#c000c0";
+        
+      } else {
+        navigation.classList.remove('scrollAmazonBreatheTheme');
+        document.querySelector(".openMenuColor1").style.stroke = "#640064";
+        document.querySelector(".openMenuColor2").style.stroke = "#640064";
+        document.querySelector(".openMenuColor3").style.stroke = "#640064";
+        document.querySelector("#navigation").style.backgroundColor = "#ff00ff";
+      }}
 
     document.getElementById('iframeProducts').src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQsllf3ENP9LLheTKrt1LuK3JVHdSadVOcgp1XAWszsh2V7BhYPfo0jiao06LgVCb-6GwLaf8zKSeuM/pubhtml?gid=1476416633&amp;single=true&amp;widget=true&amp;headers=false"
 
@@ -490,13 +516,12 @@ ScrollReveal({
 
     document.querySelector(".menu").style.backgroundColor = "#ff00ff";
     document.querySelector("#closeMenuColor").style.stroke = "#c000c0";
-    
-    document.querySelector("#navigation").style.backgroundColor = "#c000c0";
-    document.querySelector("#footer").style.backgroundColor = "#c000c0";
 
     document.querySelector("#backToTopButton circle").style.fill = "#df00df";
     document.querySelector("#backToTopButton .path1").style.stroke = "#fff";
     document.querySelector("#backToTopButton .path2").style.stroke = "#fff";
+
+    document.querySelector("#footer").style.backgroundColor = "#c000c0";
   }
 
   document.getElementById("defaultColorPalette").addEventListener("click", addBlueAliveDayThemeFunction);
@@ -507,6 +532,26 @@ ScrollReveal({
     Esta página receberá a paleta de cores: 
     
     Blue Alive Day by Eduh™`)
+
+    window.addEventListener("scroll", BlueAliveDayThemeOnScroll)
+    document.querySelector("#navigation").style.backgroundColor = "#1f54ff";
+      function BlueAliveDayThemeOnScroll () {
+      
+      if (scrollY > 0) {
+        navigation.classList.add('scrollHelloPinkLolTheme');
+        document.querySelector(".openMenuColor1").style.stroke = "#fff";
+        document.querySelector(".openMenuColor2").style.stroke = "#fff";
+        document.querySelector(".openMenuColor3").style.stroke = "#fff";
+        document.querySelector("#navigation").style.backgroundColor = "#1f54ff";
+        
+      } else {
+        navigation.classList.remove('scrollAmazonBreatheTheme');
+        document.querySelector(".openMenuColor1").style.stroke = "#00d9ff";
+        document.querySelector(".openMenuColor2").style.stroke = "#00d9ff";
+        document.querySelector(".openMenuColor3").style.stroke = "#00d9ff";
+        document.querySelector("#navigation").style.backgroundColor = "#00f";
+      }}
+
 
     document.getElementById('iframeProducts').src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQvade7ScN6Zq_7y_NkC0NAD6sE6FG3oWDGKAiAdTNNR2tzoOmEwjZ3kN8UM8C5xB4E6_As4y-wy1lU/pubhtml?gid=1476416633&amp;single=true&amp;widget=true&amp;headers=false"
 
@@ -631,10 +676,12 @@ ScrollReveal({
     document.querySelector(".menu").style.backgroundColor = "#00f";
     document.querySelector("#closeMenuColor").style.stroke = "#00d9ff";
 
-    document.querySelector("#navigation").style.backgroundColor = "#1f54ff";
-    document.querySelector("#footer").style.backgroundColor = "#1f54ff";
+    /*document.querySelector("#navigation").style.backgroundColor = "#1f54ff";*/
+    
 
     document.querySelector("#backToTopButton circle").style.fill = "#00d9ff";
     document.querySelector("#backToTopButton .path1").style.stroke = "#00f";
     document.querySelector("#backToTopButton .path2").style.stroke = "#00f";
+
+    document.querySelector("#footer").style.backgroundColor = "#1f54ff";
   }
