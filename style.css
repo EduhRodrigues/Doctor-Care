@@ -159,42 +159,42 @@ nav .wrapper {
 
 nav.scrollDefaultTheme {
   background: var(--primary-color);
-  transition: .6s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 nav.scrollDefaultTheme button path {
   stroke: var(--paragraph);
-  transition: .6s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 nav.scrollDarkShineSkyTheme {
   background: #000000;
-  transition: .6s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 nav.scrollDarkShineSkyTheme button path {
   stroke: #fff;
-  transition: .6s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 nav.scrollAmazonBreatheTheme {
   background: #228303;
-  transition: .6s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 nav.scrollAmazonBreatheTheme button path {
   stroke: #22ce00;
-  transition: .6s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 nav.scrollHelloPinkLolTheme {
   background: #c000c0;
-  transition: .6s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 nav.scrollHelloPinkLolTheme button path {
   stroke: #ff0000;
-  transition: .6s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 nav button {
@@ -237,7 +237,7 @@ body.menu-expanded .menu {
   width: 100%;
   height: 100%;
   padding-top: var(--nav-height);
-  transition: transform 800ms ease-out;
+  transition: transform 200ms ease-out;
   transform: scale(1);
 }
 
@@ -258,7 +258,7 @@ body.menu-expanded .menu {
 
 .menu ul li a:hover {
   color: rgb(255, 251, 0);
-  transition: .6s ease-in;
+  transition: .3s ease-in;
 }
 
 .menu .button {

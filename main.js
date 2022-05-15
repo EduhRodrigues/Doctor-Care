@@ -53,7 +53,12 @@ ScrollReveal({
     Dark Shine Sky by Eduh™`)
 
     window.addEventListener("scroll", AmazonBreatheThemeonScroll)
-    document.querySelector("#navigation").style.backgroundColor = "#000";
+    navigation.classList.add('scrollDarkShineSkyTheme');
+        document.querySelector(".openMenuColor1").style.stroke = "#fff";
+        document.querySelector(".openMenuColor2").style.stroke = "#fff";
+        document.querySelector(".openMenuColor3").style.stroke = "#fff";
+        document.querySelector("#navigation").style.backgroundColor = "#272727";
+
       function AmazonBreatheThemeonScroll () {
       if (scrollY > 0) {
         navigation.classList.add('scrollDarkShineSkyTheme');
@@ -61,7 +66,6 @@ ScrollReveal({
         document.querySelector(".openMenuColor2").style.stroke = "#fff";
         document.querySelector(".openMenuColor3").style.stroke = "#fff";
         document.querySelector("#navigation").style.backgroundColor = "#272727";
-        
       } else {
         navigation.classList.remove('scrollAmazonBreatheTheme');
         document.querySelector(".openMenuColor1").style.stroke = "#00d9ff";
@@ -210,15 +214,19 @@ ScrollReveal({
     Amazon Breathe by Eduh™`)
 
     window.addEventListener("scroll", AmazonBreatheThemeonScroll)
+    navigation.classList.add('scrollAmazonBreatheTheme');
+        document.querySelector(".openMenuColor1").style.stroke = "#22ce00";
+        document.querySelector(".openMenuColor2").style.stroke = "#22ce00";
+        document.querySelector(".openMenuColor3").style.stroke = "#22ce00";
+        document.querySelector("#navigation").style.backgroundColor = "#228303";
+
       function AmazonBreatheThemeonScroll () {
-      
       if (scrollY > 0) {
         navigation.classList.add('scrollAmazonBreatheTheme');
         document.querySelector(".openMenuColor1").style.stroke = "#22ce00";
         document.querySelector(".openMenuColor2").style.stroke = "#22ce00";
         document.querySelector(".openMenuColor3").style.stroke = "#22ce00";
         document.querySelector("#navigation").style.backgroundColor = "#228303";
-        
       } else {
         navigation.classList.remove('scrollAmazonBreatheTheme');
         document.querySelector(".openMenuColor1").style.stroke = "#004203";
@@ -376,16 +384,19 @@ ScrollReveal({
     Hello Pink lol by Eduh™`)
 
     window.addEventListener("scroll", HelloPinkLolThemeOnScroll)
-    document.querySelector("#navigation").style.backgroundColor = "#c000c0";
+     navigation.classList.add('scrollHelloPinkLolTheme');
+        document.querySelector(".openMenuColor1").style.stroke = "#fff";
+        document.querySelector(".openMenuColor2").style.stroke = "#fff";
+        document.querySelector(".openMenuColor3").style.stroke = "#fff";
+        document.querySelector("#navigation").style.backgroundColor = "#c000c0";
+
       function HelloPinkLolThemeOnScroll () {
-      
       if (scrollY > 0) {
         navigation.classList.add('scrollHelloPinkLolTheme');
         document.querySelector(".openMenuColor1").style.stroke = "#fff";
         document.querySelector(".openMenuColor2").style.stroke = "#fff";
         document.querySelector(".openMenuColor3").style.stroke = "#fff";
         document.querySelector("#navigation").style.backgroundColor = "#c000c0";
-        
       } else {
         navigation.classList.remove('scrollAmazonBreatheTheme');
         document.querySelector(".openMenuColor1").style.stroke = "#640064";
@@ -534,7 +545,12 @@ ScrollReveal({
     Blue Alive Day by Eduh™`)
 
     window.addEventListener("scroll", BlueAliveDayThemeOnScroll)
+    navigation.classList.add('scrollHelloPinkLolTheme');
+    document.querySelector(".openMenuColor1").style.stroke = "#fff";
+    document.querySelector(".openMenuColor2").style.stroke = "#fff";
+    document.querySelector(".openMenuColor3").style.stroke = "#fff";
     document.querySelector("#navigation").style.backgroundColor = "#1f54ff";
+
       function BlueAliveDayThemeOnScroll () {
       
       if (scrollY > 0) {
