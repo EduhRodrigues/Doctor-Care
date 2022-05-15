@@ -551,9 +551,9 @@ footer p {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 20%;
+    width: 20rem;
     margin-inline: auto;
-    gap: 1rem;
+    gap: 4rem;
     margin-bottom: -.5rem;
   }
 
