@@ -8,9 +8,10 @@ function onScroll() {
 
 function showNavOnScroll() {
   if (scrollY > 0) {
-    navigation.classList.add('scroll')
+    navigation.classList.add('scrollDefaultTheme');
+    
   } else {
-    navigation.classList.remove('scroll')
+    navigation.classList.remove('scrollDefaultTheme');
   }}
 
   function showBackToTopButtonOnScroll (){
@@ -51,12 +52,21 @@ ScrollReveal({
     
     Dark Shine Sky by Eduh™`)
 
+    window.addEventListener("scroll", DarkShineSkyThemeonScroll)
+      function DarkShineSkyThemeonScroll () {
+      if (scrollY > 0) {
+        navigation.classList.add('scrollDarkShineSkyTheme');
+        
+      } else {
+        navigation.classList.remove('scrollDarkShineSkyTheme');
+      }}
+
     document.getElementById('iframeProducts').src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQoHx1_iniuYaD89UITs6JglwISLg8OxpZoEYYDDVBMxYITsCMOsEyJ5ALC-9l6BO2z1uLnMa227a-R/pubhtml?gid=1476416633&amp;single=true&amp;widget=true&amp;headers=false";
 
     document.querySelector(".aqui1").style.color = "#00d9ff";
     document.querySelector(".aqui2").style.color = "#00d9ff";
 
-    document.querySelector("h1").style.color = "beige";
+    /*document.querySelector("h1").style.color = "beige";*/
     document.querySelector("h2").style.color = "#00d9ff";
     document.querySelector("h4").style.color = "#00d9ff";
     document.querySelector("p").style.color = "#fff";
@@ -172,6 +182,9 @@ ScrollReveal({
     document.querySelector("#about h2").style.color = "#00d9ff";
 
     document.querySelector(".menu").style.backgroundColor = "#000";
+
+    
+    
     document.querySelector("#closeMenuColor").style.stroke = "#00d9ff";
 
     document.querySelector("#navigation").style.backgroundColor = "#000";
@@ -189,6 +202,23 @@ ScrollReveal({
     Esta página receberá a paleta de cores: 
     
     Amazon Breathe by Eduh™`)
+
+
+    window.addEventListener("scroll", AmazonBreatheThemeonScroll)
+      function AmazonBreatheThemeonScroll () {
+      
+      if (scrollY > 0) {
+        navigation.classList.add('scrollAmazonBreatheTheme');
+        document.querySelector(".openMenuColor1").style.stroke = "#22ce00";
+        document.querySelector(".openMenuColor2").style.stroke = "#22ce00";
+        document.querySelector(".openMenuColor3").style.stroke = "#22ce00";
+        
+      } else {
+        navigation.classList.remove('scrollAmazonBreatheTheme');
+        document.querySelector(".openMenuColor1").style.stroke = "#228303";
+        document.querySelector(".openMenuColor2").style.stroke = "#228303";
+        document.querySelector(".openMenuColor3").style.stroke = "#228303";
+      }}
 
     document.getElementById('iframeProducts').src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQTZpnLzMpDCScHrUr31gtuKTYW2AtouDVTFD0zFcf5fMLjSyT0OcZ-9fyEOf-ZQk8qb5Sr9rTfpT6/pubhtml?gid=1476416633&amp;single=true&amp;widget=true&amp;headers=false";
    
@@ -313,12 +343,11 @@ ScrollReveal({
     document.querySelector(".menu").style.backgroundColor = "#22B103";
     document.querySelector("#closeMenuColor").style.stroke = "#1c7200";
 
-    document.querySelector("#navigation").style.backgroundColor = "#228303";
-    document.querySelector("#footer").style.backgroundColor = "#228303";
-
     document.querySelector("#backToTopButton circle").style.fill = "#22ce00";
     document.querySelector("#backToTopButton .path1").style.stroke = "#1c7200";
     document.querySelector("#backToTopButton .path2").style.stroke = "#1c7200";
+
+    document.querySelector("#footer").style.backgroundColor = "#228303";
   }
 
   document.getElementById("custom03ColorPalette").addEventListener("click", custom03ColorPalette)

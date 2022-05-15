@@ -157,13 +157,33 @@ nav .wrapper {
   justify-content: center;
 }
 
-nav.scroll {
+nav.scrollDefaultTheme {
   background: var(--primary-color);
   transition: .6s ease-in-out;
 }
 
-nav.scroll button path {
+nav.scrollDefaultTheme button path {
   stroke: var(--paragraph);
+  transition: .6s ease-in-out;
+}
+
+nav.scrollDarkShineSkyTheme {
+  background: rgb(39, 39, 39);
+  transition: .6s ease-in-out;
+}
+
+nav.scrollDarkShineSkyTheme button path {
+  stroke: #fff;
+  transition: .6s ease-in-out;
+}
+
+nav.scrollAmazonBreatheTheme {
+  background: #228303;
+  transition: .6s ease-in-out;
+}
+
+nav.scrollAmazonBreatheTheme button path {
+  stroke: #22ce00;
   transition: .6s ease-in-out;
 }
 
