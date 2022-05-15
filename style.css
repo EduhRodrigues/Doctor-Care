@@ -461,7 +461,6 @@ header .space {
   border-radius: .6rem;
   border: 0px solid #00d9ff;
   text-align: left;
-  background: var(--down-bg-color);
   box-shadow: 0px 0px 2rem #00d9ff;
   }
 
