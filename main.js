@@ -667,9 +667,9 @@ ScrollReveal({
     /*document.querySelector("#navigation").style.backgroundColor = "#1f54ff";*/
     
 
-    document.querySelector("#backToTopButton circle").style.fill = "#00d9ff";
-    document.querySelector("#backToTopButton .path1").style.stroke = "#00f";
-    document.querySelector("#backToTopButton .path2").style.stroke = "#00f";
+    document.querySelector("#backToTopButton circle").style.fill = "#0d3bcf";
+    document.querySelector("#backToTopButton .path1").style.stroke = "#fff";
+    document.querySelector("#backToTopButton .path2").style.stroke = "#fff";
 
     document.querySelector("#footer").style.backgroundColor = "#1f54ff";
   }
