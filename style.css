@@ -390,7 +390,6 @@ body.menu-expanded button path {
 #services {
     width: 40rem;
     margin-inline: auto;
-   
 }
 
 #services header h2 {
@@ -430,7 +429,7 @@ body.menu-expanded button path {
 .produsctsIframeBorderCover {
   display: inline-block;
   width: 29rem;
-  height: 48.5rem;
+  height: 47.1rem;
   overflow: hidden;
 }
 
@@ -457,7 +456,7 @@ header .space {
   display: inline-block;
   overflow: hidden;
   padding: 0rem;
-  margin-top: -4rem;
+  margin-top: -3rem;
   height: 40rem;
   border-radius: .6rem;
   border: 3px solid red;

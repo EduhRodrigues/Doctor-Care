@@ -79,8 +79,9 @@ ScrollReveal({
     document.querySelector(".aqui1").style.color = "#00d9ff";
     document.querySelector(".aqui2").style.color = "#00d9ff";
 
-    /*document.querySelector("h1").style.color = "beige";*/
+    document.querySelector("h1").style.color = "beige"
     document.querySelector("h2").style.color = "#00d9ff";
+    document.querySelector("#h2autoServiceColor").style.color = "#00d9ff";
     document.querySelector("h4").style.color = "#00d9ff";
     document.querySelector("p").style.color = "#fff";
 
@@ -242,6 +243,7 @@ ScrollReveal({
 
     document.querySelector("h1").style.color = "#004203";
     document.querySelector("h2").style.color = "#004203";
+    document.querySelector("#h2autoServiceColor").style.color = "#004203";
     document.querySelector("h4").style.color = "#fff";
     document.querySelector("p").style.color = "#fff";
 
@@ -411,7 +413,7 @@ ScrollReveal({
     document.querySelector(".aqui2").style.color = "#640064";
 
     document.querySelector("h1").style.color = "#640064";
-    document.querySelector("h2").style.color = "#640064";
+    document.querySelector("#h2autoServiceColor").style.color = "#640064";
     document.querySelector("h4").style.color = "#fff";
     document.querySelector("p").style.color = "#fff";
 
@@ -575,6 +577,7 @@ ScrollReveal({
     document.querySelector(".aqui2").style.color = "#00d9ff";
 
     document.querySelector("h1").style.color = "#00d9ff";
+    document.querySelector("#h2autoServiceColor").style.color = "#00d9ff";
     document.querySelector("h2").style.color = "#00d9ff";
     document.querySelector("h4").style.color = "#fff";
     document.querySelector("p").style.color = "#fff";
