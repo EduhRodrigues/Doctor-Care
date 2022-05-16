@@ -1,4 +1,4 @@
-Check my work on <a href="https://eduhrodrigues.github.io/Doctor-Care/"> github.io/Doctor-Care
+Check my work on <a href="https://eduhrodrigues.github.io/Doctor-Care/"> github.io/Doctor-Care </a>
 
 <img src="assets/coverPNG.png" alt="capa da página Doctor Care."><br><br>
 <br>
