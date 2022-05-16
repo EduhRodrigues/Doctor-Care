@@ -358,7 +358,6 @@ ScrollReveal({
   }
 
   document.getElementById("custom04ColorPalette").addEventListener("click", addHelloPinkLolThemeFunction)
- 
   function addHelloPinkLolThemeFunction () {
     alert(`Prepare-se para uma nova experiência!
 
@@ -542,7 +541,6 @@ ScrollReveal({
         document.querySelector("#navigation").style.backgroundColor = "#00f";
       }}
 
-
     document.getElementById('iframeProducts').src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQvade7ScN6Zq_7y_NkC0NAD6sE6FG3oWDGKAiAdTNNR2tzoOmEwjZ3kN8UM8C5xB4E6_As4y-wy1lU/pubhtml?gid=1476416633&amp;single=true&amp;widget=true&amp;headers=false"
 
     document.querySelector(".aqui1").style.color = "#00d9ff";
@@ -663,9 +661,6 @@ ScrollReveal({
 
     document.querySelector(".menu").style.backgroundColor = "#00f";
     document.querySelector("#closeMenuColor").style.stroke = "#00d9ff";
-
-    /*document.querySelector("#navigation").style.backgroundColor = "#1f54ff";*/
-    
 
     document.querySelector("#backToTopButton circle").style.fill = "#0d3bcf";
     document.querySelector("#backToTopButton .path1").style.stroke = "#fff";
